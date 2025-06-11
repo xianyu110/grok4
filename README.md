@@ -5,10 +5,9 @@
 
 扫描下方二维码，即刻体验：
 
-![Grok官方二维码](https://restname.oss-cn-hangzhou.aliyuncs.com/img2/202502261232069.png)
+![image](https://github.com/user-attachments/assets/ed4a07b7-23b9-4b8f-9ef9-6f1891360563)
 
-https://vlink.cc/maynorai?s=t3AIM1m0S_
-
+https://agi.maynor1024.live/list/#/
 
 如无法访问,可添加微信客服 vx: coder-maynor
 
@@ -60,6 +59,5 @@ Grok-3以其独特的个性魅力，展现出真实而富有洞察力的判断�
 
 完美复刻原版界面与功能，诚邀您亲身体验这款革命性的AI产品，期待听到您的使用感受！
 
-https://grok.maynor1024.live/
+![image](https://github.com/user-attachments/assets/158d4b75-e32e-450e-9c31-5020bebada01)
 
-![访问二维码](https://restname.oss-cn-hangzhou.aliyuncs.com/img2/202502261232069.png)
