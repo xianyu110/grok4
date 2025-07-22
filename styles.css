@@ -53,11 +53,16 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 16px rgba(102,126,234,0.08);
+    backdrop-filter: blur(12px);
+    border-bottom: none;
     z-index: 1000;
     transition: var(--transition);
+}
+
+.navbar:hover {
+    box-shadow: 0 4px 24px rgba(102,126,234,0.18);
 }
 
 .nav-container {
@@ -169,6 +174,8 @@ body {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px #f093fb22;
 }
 
 .gradient-text {
@@ -183,6 +190,7 @@ body {
     color: var(--text-secondary);
     margin-bottom: 2rem;
     line-height: 1.6;
+    animation: fadeInSection 1.5s 0.2s both;
 }
 
 .hero-buttons {
@@ -205,14 +213,29 @@ body {
 }
 
 .btn-primary {
-    background: var(--primary-gradient);
+    background: linear-gradient(90deg, #667eea 0%, #f093fb 100%);
+    box-shadow: 0 4px 24px rgba(102,126,234,0.18);
+    position: relative;
+    overflow: hidden;
     color: var(--text-light);
-    box-shadow: var(--shadow-medium);
 }
-
+.btn-primary::after {
+    content: '';
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, #f093fb33 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 0;
+}
+.btn-primary:hover::after {
+    opacity: 1;
+}
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-strong);
+    filter: brightness(1.08) drop-shadow(0 0 8px #f093fb88);
 }
 
 .btn-secondary {
@@ -229,9 +252,11 @@ body {
 
 /* 浮动卡片样式 */
 .floating-card {
-    background: var(--bg-primary);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-strong);
+    background: rgba(255,255,255,0.85);
+    box-shadow: 0 8px 32px 0 rgba(102,126,234,0.10), 0 1.5px 8px 0 rgba(118,75,162,0.08);
+    border: 1.5px solid rgba(102,126,234,0.08);
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s, box-shadow 0.3s;
     overflow: hidden;
     animation: float 3s ease-in-out infinite;
 }
@@ -239,6 +264,11 @@ body {
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
+}
+
+.floating-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 40px 0 #764ba244, 0 2px 12px 0 #667eea22;
 }
 
 .card-header {
@@ -353,7 +383,11 @@ body {
 }
 
 .feature-card {
-    background: var(--bg-primary);
+    background: rgba(255,255,255,0.85);
+    box-shadow: 0 8px 32px 0 rgba(102,126,234,0.10), 0 1.5px 8px 0 rgba(118,75,162,0.08);
+    border: 1.5px solid rgba(102,126,234,0.08);
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s, box-shadow 0.3s;
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-light);
@@ -362,8 +396,8 @@ body {
 }
 
 .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-medium);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 40px 0 #764ba244, 0 2px 12px 0 #667eea22;
 }
 
 .feature-icon {
@@ -412,13 +446,17 @@ body {
 }
 
 .stat-number {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    background: var(--accent-gradient);
+    font-size: 3.2rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #f093fb 0%, #667eea 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: fadeInUp 1s;
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .stat-label {
@@ -621,6 +659,11 @@ body {
     .btn {
         width: 100%;
         max-width: 300px;
+        font-size: 1.1rem;
+        padding: 1.2rem 0;
+    }
+    .feature-card, .mirror-card, .advantage-card {
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -674,4 +717,58 @@ body {
 ::-moz-selection {
     background: var(--primary-gradient);
     color: var(--text-light);
+} 
+
+/* 新增：背景装饰光斑 */
+body::before {
+    content: '';
+    position: fixed;
+    left: 10vw;
+    top: 10vh;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #f093fb33 0%, transparent 80%);
+    z-index: 0;
+    pointer-events: none;
+    filter: blur(20px);
+}
+body::after {
+    content: '';
+    position: fixed;
+    right: 5vw;
+    bottom: 5vh;
+    width: 220px;
+    height: 220px;
+    background: radial-gradient(circle, #667eea33 0%, transparent 80%);
+    z-index: 0;
+    pointer-events: none;
+    filter: blur(18px);
+}
+
+/* 新增：FAQ、优势等区块卡片动画 */
+.faq-item, .advantage-card, .whyus-list li {
+    animation: fadeInUp 1.2s cubic-bezier(.4,0,.2,1) both;
+}
+
+/* 优化：移动端按钮更大，卡片间距更大 */
+@media (max-width: 768px) {
+    .btn {
+        font-size: 1.1rem;
+        padding: 1.2rem 0;
+    }
+    .feature-card, .mirror-card, .advantage-card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* 其它细节优化 */
+.hero-title {
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px #f093fb22;
+}
+.hero-description {
+    animation: fadeInSection 1.5s 0.2s both;
+}
+.hero-image {
+    filter: drop-shadow(0 8px 32px #764ba244);
 } 
