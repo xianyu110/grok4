@@ -11,7 +11,7 @@ on:
   workflow_dispatch: # 允许手动触发
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -23,6 +23,8 @@ jobs:
   # 更新网站内容
   update-content:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout repository
