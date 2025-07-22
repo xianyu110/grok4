@@ -1,0 +1,76 @@
+# GitHub Pages 配置
+title: "Grok AI - 智能对话助手"
+description: "现代化的AI对话助手展示页面，具有美观的UI设计和自动更新功能"
+url: "https://chinamanor.github.io"  # 替换为您的GitHub Pages URL
+baseurl: "/grok3.asia"  # 替换为您的仓库名称
+
+# 作者信息
+author:
+  name: "Grok AI Team"
+  email: "contact@grokai.com"
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - README.md
+  - .github/
+  - .gitignore
+  - LICENSE
+  - node_modules/
+  - package*.json
+
+# 包含文件
+include:
+  - _pages
+
+# 集合设置
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# SEO 设置
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 社交媒体
+social:
+  github: "chinamanor/grok3.asia"  # 替换为您的GitHub仓库
+  twitter: "grokai"
+
+# Google Analytics (可选)
+# google_analytics: "G-XXXXXXXXXX"
+
+# 网站图标
+favicon: "/favicon.ico"
+
+# 启用压缩
+sass:
+  style: compressed
+
+# 安全设置
+safe: true
+incremental: false
+profile: false
+
+# 时区和日期格式
+date_format: "%Y-%m-%d"
+time_format: "%H:%M" 

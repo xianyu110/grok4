@@ -1,0 +1,43 @@
+{
+  "name": "grok-ai-website",
+  "version": "1.0.0",
+  "description": "A modern, beautiful Grok AI showcase website with auto-update functionality",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "gh-pages -d .",
+    "lint": "eslint script.js",
+    "format": "prettier --write *.html *.css *.js *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinamanor/grok3.asia.git"
+  },
+  "keywords": [
+    "grok",
+    "ai",
+    "chatbot",
+    "website",
+    "github-pages",
+    "responsive",
+    "modern-ui"
+  ],
+  "author": "Grok AI Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinamanor/grok3.asia/issues"
+  },
+  "homepage": "https://chinamanor.github.io/grok3.asia",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "live-server": "^1.2.2",
+    "gh-pages": "^6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 

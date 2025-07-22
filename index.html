@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok AI - 智能对话助手</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>Grok AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">功能</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    智能对话，<br>
+                    <span class="gradient-text">无限可能</span>
+                </h1>
+                <p class="hero-description">
+                    体验最先进的AI对话技术，让人工智能成为您最得力的助手。
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">立即体验</button>
+                    <button class="btn btn-secondary">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="chat-message user">
+                            <div class="message-content">你好，Grok！</div>
+                        </div>
+                        <div class="chat-message ai">
+                            <div class="message-content">你好！我是Grok AI，很高兴为您服务！</div>
+                        </div>
+                        <div class="typing-indicator">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特色区域 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">强大功能</h2>
+                <p class="section-subtitle">探索Grok AI的核心能力</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">智能对话</h3>
+                    <p class="feature-description">基于先进的大语言模型，提供自然流畅的对话体验</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">代码助手</h3>
+                    <p class="feature-description">支持多种编程语言，提供代码生成、调试和优化建议</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3 class="feature-title">多语言支持</h3>
+                    <p class="feature-description">支持中英文及多种语言，满足全球用户需求</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="feature-title">创意写作</h3>
+                    <p class="feature-description">协助创作文章、故事、诗歌等各类文本内容</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">数据分析</h3>
+                    <p class="feature-description">帮助分析数据，生成图表和洞察报告</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="feature-title">学习助手</h3>
+                    <p class="feature-description">提供个性化学习指导和知识问答服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 统计数据区域 -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-count="1000000">0</h3>
+                    <p class="stat-label">活跃用户</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-count="50000000">0</h3>
+                    <p class="stat-label">对话次数</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-count="99">0</h3>
+                    <p class="stat-label">满意度</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-count="24">0</h3>
+                    <p class="stat-label">24/7 服务</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">关于 Grok AI</h2>
+                    <p class="about-description">
+                        Grok AI 是一款基于最新人工智能技术的智能对话助手。我们致力于提供最自然、
+                        最智能的人机交互体验，帮助用户提高工作效率，解决各种问题。
+                    </p>
+                    <p class="about-description">
+                        无论您是需要编程帮助、创意写作、学习指导还是日常问答，Grok AI 都能
+                        为您提供专业、准确的回答。
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>安全可靠</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>持续学习</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>开源透明</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="code-window">
+                            <div class="code-header">
+                                <span class="file-name">grok_ai.py</span>
+                            </div>
+                            <div class="code-content">
+                                <div class="code-line"><span class="keyword">class</span> <span class="class-name">GrokAI</span>:</div>
+                                <div class="code-line">    <span class="keyword">def</span> <span class="function">__init__</span>(self):</div>
+                                <div class="code-line">        self.intelligence = <span class="string">"advanced"</span></div>
+                                <div class="code-line">        self.creativity = <span class="string">"unlimited"</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>Grok AI</span>
+                    </div>
+                    <p class="footer-description">
+                        智能对话，无限可能
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能</a></li>
+                        <li><a href="#about">关于</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">联系我们</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@grokai.com">contact@grokai.com</a></li>
+                        <li><a href="https://github.com/grok-ai">GitHub</a></li>
+                        <li><a href="https://twitter.com/grokai">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">最后更新</h4>
+                    <p id="last-update" class="last-update">--</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grok AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
