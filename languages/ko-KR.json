@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Grok4 중국 사용 가이드 - 최강 AI 어시스턴트",
+    "description": "Grok4 중국 액세스 완전 가이드, xAI 최신 AI 기술 체험, VPN 불필요 직접 연결 사용"
+  },
+  "header": {
+    "title": "Grok4 중국 사용 가이드",
+    "subtitle": "xAI 최강 AI 어시스턴트 체험 · 중국 직접 연결 · 실시간 인터넷",
+    "heroText": "🚀 AI 새로운 경지 해방"
+  },
+  "features": {
+    "title": "Grok4 핵심 기능",
+    "items": [
+      "실시간 인터넷 검색",
+      "멀티모달 이해 능력",
+      "유머러스한 대화 스타일",
+      "최신 정보 획득",
+      "강력한 추론 능력",
+      "코드 생성 최적화"
+    ]
+  },
+  "comparison": {
+    "title": "AI 모델 비교",
+    "models": [
+      {
+        "name": "Grok4",
+        "strengths": ["실시간 정보", "유머러스한 대화", "강한 추론 능력"],
+        "rating": 9.5
+      },
+      {
+        "name": "GPT-4",
+        "strengths": ["텍스트 생성", "코드 작성", "풍부한 지식"],
+        "rating": 9.2
+      },
+      {
+        "name": "Claude",
+        "strengths": ["장문 분석", "높은 안전성", "명확한 논리"],
+        "rating": 9.0
+      }
+    ]
+  },
+  "usage": {
+    "title": "사용 방안",
+    "methods": [
+      {
+        "title": "공식 구독",
+        "price": "₩21,000/월",
+        "features": ["완전한 기능", "우선 지원", "무제한 사용"],
+        "requirements": "X Premium 구독 필요"
+      },
+      {
+        "title": "미러 직접 액세스",
+        "price": "₩8,800/월",
+        "features": ["중국 직접 연결", "VPN 불필요", "안정적이고 빠름"],
+        "requirements": "제로 진입장벽 사용"
+      },
+      {
+        "title": "API 호출",
+        "price": "사용량 기반 결제",
+        "features": ["개발 통합", "유연한 호출", "비용 제어 가능"],
+        "requirements": "기술 개발 요구사항"
+      }
+    ]
+  },
+  "guide": {
+    "title": "빠른 시작",
+    "steps": [
+      {
+        "title": "액세스 방법 선택",
+        "description": "요구사항에 따라 적절한 사용 방안 선택"
+      },
+      {
+        "title": "계정 생성",
+        "description": "계정 등록 및 실명 인증 완료"
+      },
+      {
+        "title": "대화 시작",
+        "description": "Grok4의 강력한 AI 능력 체험"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "응용 시나리오",
+    "cases": [
+      {
+        "title": "실시간 정보 조회",
+        "description": "최신 뉴스, 주가, 날씨 등 실시간 정보 획득"
+      },
+      {
+        "title": "창작 콘텐츠 생성",
+        "description": "글쓰기 보조, 마케팅 카피, 창작 기획"
+      },
+      {
+        "title": "기술 문제 해답",
+        "description": "프로그래밍 디버깅, 기술 선택, 아키텍처 설계"
+      },
+      {
+        "title": "학습 지도",
+        "description": "지식 문답, 논문 작성, 연구 분석"
+      }
+    ]
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "Grok4가 다른 AI에 비해 어떤 장점이 있나요?",
+        "answer": "Grok4는 실시간 인터넷 능력을 갖춰 최신 정보를 얻을 수 있고, 더 자연스럽고 유머러스한 대화 스타일, 더 강한 추론 능력을 가지고 있습니다"
+      },
+      {
+        "question": "중국 사용자는 어떻게 안정적으로 사용할 수 있나요?",
+        "answer": "국내 미러 서비스 사용을 권장합니다. VPN 불필요, 액세스 속도가 빠르고 서비스가 안정적입니다"
+      },
+      {
+        "question": "어떤 기능들을 지원하나요?",
+        "answer": "텍스트 대화, 이미지 분석, 코드 생성, 실시간 검색, 멀티턴 대화 등 모든 기능을 지원합니다"
+      }
+    ]
+  },
+  "cta": {
+    "title": "지금 Grok4 체험하기",
+    "description": "AI 혁명에 참여하고 최첨단 인공지능 기술을 체험하세요",
+    "button": "시작하기"
+  },
+  "footer": {
+    "copyright": "© 2025 Grok4.cn. 모든 권리 보유",
+    "links": {
+      "about": "회사 소개",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용약관",
+      "contact": "문의하기"
+    }
+  },
+  "ui": {
+    "languageSelector": "언어 선택",
+    "tryNow": "지금 시도",
+    "learnMore": "더 알아보기",
+    "getStarted": "시작하기",
+    "subscribe": "지금 구독"
+  }
+}

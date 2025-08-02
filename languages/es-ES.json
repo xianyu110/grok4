@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Guía de Grok4 China - Asistente AI Más Potente",
+    "description": "Guía completa de acceso a Grok4 en China, experimenta la última tecnología AI de xAI con conexión directa"
+  },
+  "header": {
+    "title": "Guía de Acceso a Grok4 en China",
+    "subtitle": "Experimenta el Asistente AI Más Potente de xAI · Conexión Directa · Internet en Tiempo Real",
+    "heroText": "🚀 Desbloquea Nuevas Fronteras de AI"
+  },
+  "features": {
+    "title": "Características Principales de Grok4",
+    "items": [
+      "Búsqueda de internet en tiempo real",
+      "Capacidad de comprensión multimodal",
+      "Estilo de conversación humorístico",
+      "Acceso a información más reciente",
+      "Capacidad de razonamiento poderosa",
+      "Optimización de generación de código"
+    ]
+  },
+  "comparison": {
+    "title": "Comparación de Modelos AI",
+    "models": [
+      {
+        "name": "Grok4",
+        "strengths": ["Información en tiempo real", "Chat humorístico", "Razonamiento fuerte"],
+        "rating": 9.5
+      },
+      {
+        "name": "GPT-4",
+        "strengths": ["Generación de texto", "Escritura de código", "Conocimiento rico"],
+        "rating": 9.2
+      },
+      {
+        "name": "Claude",
+        "strengths": ["Análisis de texto largo", "Alta seguridad", "Lógica clara"],
+        "rating": 9.0
+      }
+    ]
+  },
+  "usage": {
+    "title": "Planes de Uso",
+    "methods": [
+      {
+        "title": "Suscripción Oficial",
+        "price": "€16/mes",
+        "features": ["Funciones completas", "Soporte prioritario", "Uso ilimitado"],
+        "requirements": "Requiere suscripción X Premium"
+      },
+      {
+        "title": "Acceso Directo Mirror",
+        "price": "€10/mes",
+        "features": ["Conexión directa en China", "Sin VPN necesaria", "Estable y rápido"],
+        "requirements": "Sin barreras"
+      },
+      {
+        "title": "Llamadas API",
+        "price": "Pago por uso",
+        "features": ["Integración de desarrollo", "Llamadas flexibles", "Costos controlables"],
+        "requirements": "Necesidades de desarrollo técnico"
+      }
+    ]
+  },
+  "guide": {
+    "title": "Inicio Rápido",
+    "steps": [
+      {
+        "title": "Elegir Método de Acceso",
+        "description": "Selecciona el plan de uso apropiado basado en tus necesidades"
+      },
+      {
+        "title": "Crear Cuenta",
+        "description": "Completa el registro de cuenta y verificación"
+      },
+      {
+        "title": "Iniciar Conversación",
+        "description": "Experimenta las poderosas capacidades AI de Grok4"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Casos de Uso",
+    "cases": [
+      {
+        "title": "Consulta de Información en Tiempo Real",
+        "description": "Obtén las últimas noticias, precios de acciones, clima y otra información en tiempo real"
+      },
+      {
+        "title": "Generación de Contenido Creativo",
+        "description": "Asistente de escritura, copy de marketing, planificación creativa"
+      },
+      {
+        "title": "Respuestas a Problemas Técnicos",
+        "description": "Depuración de programación, selección de tecnología, diseño de arquitectura"
+      },
+      {
+        "title": "Asistencia de Aprendizaje",
+        "description": "Preguntas y respuestas de conocimiento, escritura de ensayos, análisis de investigación"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué ventajas tiene Grok4 sobre otros AI?",
+        "answer": "Grok4 tiene capacidades de internet en tiempo real, puede acceder a la información más reciente, estilo de conversación más humorístico y natural, y capacidades de razonamiento más fuertes"
+      },
+      {
+        "question": "¿Cómo pueden los usuarios chinos usarlo de manera estable?",
+        "answer": "Recomendamos usar servicios mirror domésticos, sin VPN necesaria, velocidad de acceso rápida, servicio estable"
+      },
+      {
+        "question": "¿Qué características están soportadas?",
+        "answer": "Soporta diálogo de texto, análisis de imágenes, generación de código, búsqueda en tiempo real, conversación multi-turno y todas las características completas"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Experimenta Grok4 Ahora",
+    "description": "Únete a la revolución AI y experimenta la tecnología de inteligencia artificial más avanzada",
+    "button": "Comenzar"
+  },
+  "footer": {
+    "copyright": "© 2025 Grok4.cn. Todos los derechos reservados",
+    "links": {
+      "about": "Acerca de Nosotros",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "contact": "Contáctanos"
+    }
+  },
+  "ui": {
+    "languageSelector": "Seleccionar Idioma",
+    "tryNow": "Probar Ahora",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "subscribe": "Suscribirse Ahora"
+  }
+}
