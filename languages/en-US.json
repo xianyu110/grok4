@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Grok4 China Guide - Most Powerful AI Assistant",
+    "description": "Complete Grok4 access guide for China, experience xAI's latest AI technology with direct connection"
+  },
+  "header": {
+    "title": "Grok4 China Access Guide",
+    "subtitle": "Experience xAI's Most Powerful AI Assistant · Direct Connection · Real-time Internet",
+    "heroText": "🚀 Unlock New AI Frontiers"
+  },
+  "features": {
+    "title": "Grok4 Core Features",
+    "items": [
+      "Real-time internet search",
+      "Multi-modal understanding",
+      "Humorous conversation style",
+      "Latest information access",
+      "Powerful reasoning ability",
+      "Code generation optimization"
+    ]
+  },
+  "comparison": {
+    "title": "AI Model Comparison", 
+    "models": [
+      {
+        "name": "Grok4",
+        "strengths": ["Real-time info", "Humorous chat", "Strong reasoning"],
+        "rating": 9.5
+      },
+      {
+        "name": "GPT-4",
+        "strengths": ["Text generation", "Code writing", "Rich knowledge"],
+        "rating": 9.2
+      },
+      {
+        "name": "Claude",
+        "strengths": ["Long text analysis", "High safety", "Clear logic"],
+        "rating": 9.0
+      }
+    ]
+  },
+  "usage": {
+    "title": "Usage Plans",
+    "methods": [
+      {
+        "title": "Official Subscription",
+        "price": "$16/month",
+        "features": ["Full features", "Priority support", "Unlimited usage"],
+        "requirements": "Requires X Premium subscription"
+      },
+      {
+        "title": "Mirror Direct Access",
+        "price": "$10/month",
+        "features": ["China direct connection", "No VPN needed", "Stable & fast"],
+        "requirements": "Zero barriers"
+      },
+      {
+        "title": "API Calls",
+        "price": "Pay-per-use",
+        "features": ["Development integration", "Flexible calls", "Cost controllable"],
+        "requirements": "Technical development needs"
+      }
+    ]
+  },
+  "guide": {
+    "title": "Quick Start",
+    "steps": [
+      {
+        "title": "Choose Access Method",
+        "description": "Select the appropriate usage plan based on your needs"
+      },
+      {
+        "title": "Create Account", 
+        "description": "Complete account registration and verification"
+      },
+      {
+        "title": "Start Conversation",
+        "description": "Experience Grok4's powerful AI capabilities"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Use Cases",
+    "cases": [
+      {
+        "title": "Real-time Information Query",
+        "description": "Get latest news, stock prices, weather and other real-time information"
+      },
+      {
+        "title": "Creative Content Generation",
+        "description": "Writing assistant, marketing copy, creative planning"
+      },
+      {
+        "title": "Technical Q&A",
+        "description": "Programming debugging, technology selection, architecture design"
+      },
+      {
+        "title": "Learning Assistance",
+        "description": "Knowledge Q&A, paper writing, research analysis"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What advantages does Grok4 have over other AIs?",
+        "answer": "Grok4 has real-time internet capabilities, can access latest information, more humorous and natural conversation style, and stronger reasoning abilities"
+      },
+      {
+        "question": "How can Chinese users use it stably?",
+        "answer": "We recommend using domestic mirror services, no VPN needed, fast access speed, stable service"
+      },
+      {
+        "question": "What features are supported?",
+        "answer": "Supports text dialogue, image analysis, code generation, real-time search, multi-turn conversation and all full features"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Experience Grok4 Now",
+    "description": "Join the AI revolution and experience cutting-edge artificial intelligence technology",
+    "button": "Get Started"
+  },
+  "footer": {
+    "copyright": "© 2025 Grok4.cn. All rights reserved",
+    "links": {
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use", 
+      "contact": "Contact Us"
+    }
+  },
+  "ui": {
+    "languageSelector": "Select Language",
+    "tryNow": "Try Now",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "subscribe": "Subscribe Now"
+  }
+}

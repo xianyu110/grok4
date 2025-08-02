@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Grok4 国内使用指南 - 最强AI助手",
+    "description": "Grok4国内访问完全指南，体验xAI最新AI技术，无需翻墙直连使用"
+  },
+  "header": {
+    "title": "Grok4 国内使用指南",
+    "subtitle": "体验xAI最强AI助手 · 国内直连 · 实时联网",
+    "heroText": "🚀 解锁AI新境界"
+  },
+  "features": {
+    "title": "Grok4 核心特性",
+    "items": [
+      "实时联网搜索",
+      "多模态理解能力",
+      "幽默风趣对话风格",
+      "最新信息获取",
+      "强大推理能力",
+      "代码生成优化"
+    ]
+  },
+  "comparison": {
+    "title": "AI模型对比",
+    "models": [
+      {
+        "name": "Grok4",
+        "strengths": ["实时信息", "幽默对话", "推理能力强"],
+        "rating": 9.5
+      },
+      {
+        "name": "GPT-4",
+        "strengths": ["文本生成", "代码编写", "知识丰富"],
+        "rating": 9.2
+      },
+      {
+        "name": "Claude",
+        "strengths": ["长文分析", "安全性高", "逻辑清晰"],
+        "rating": 9.0
+      }
+    ]
+  },
+  "usage": {
+    "title": "使用方案",
+    "methods": [
+      {
+        "title": "官方订阅",
+        "price": "$16/月",
+        "features": ["完整功能", "优先支持", "无限使用"],
+        "requirements": "需要X Premium订阅"
+      },
+      {
+        "title": "镜像直连",
+        "price": "￥66/月",
+        "features": ["国内直连", "无需翻墙", "稳定快速"],
+        "requirements": "零门槛使用"
+      },
+      {
+        "title": "API调用",
+        "price": "按量计费",
+        "features": ["开发集成", "灵活调用", "成本可控"],
+        "requirements": "技术开发需求"
+      }
+    ]
+  },
+  "guide": {
+    "title": "快速开始",
+    "steps": [
+      {
+        "title": "选择访问方式",
+        "description": "根据需求选择合适的使用方案"
+      },
+      {
+        "title": "创建账号",
+        "description": "完成账号注册和实名认证"
+      },
+      {
+        "title": "开始对话",
+        "description": "体验Grok4的强大AI能力"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "应用场景",
+    "cases": [
+      {
+        "title": "实时资讯查询",
+        "description": "获取最新新闻、股价、天气等实时信息"
+      },
+      {
+        "title": "创意内容生成",
+        "description": "写作助手、营销文案、创意策划"
+      },
+      {
+        "title": "技术问题解答",
+        "description": "编程调试、技术选型、架构设计"
+      },
+      {
+        "title": "学习辅导",
+        "description": "知识问答、论文写作、研究分析"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "Grok4相比其他AI有什么优势？",
+        "answer": "Grok4具备实时联网能力，能获取最新信息，对话风格更加幽默自然，推理能力更强"
+      },
+      {
+        "question": "国内用户如何稳定使用？",
+        "answer": "推荐使用国内镜像服务，无需翻墙，访问速度快，服务稳定"
+      },
+      {
+        "question": "支持哪些功能？",
+        "answer": "支持文本对话、图片分析、代码生成、实时搜索、多轮对话等全部功能"
+      }
+    ]
+  },
+  "cta": {
+    "title": "立即体验Grok4",
+    "description": "加入AI革命，体验最前沿的人工智能技术",
+    "button": "开始使用"
+  },
+  "footer": {
+    "copyright": "© 2025 Grok4.cn. 保留所有权利",
+    "links": {
+      "about": "关于我们",
+      "privacy": "隐私政策", 
+      "terms": "使用条款",
+      "contact": "联系我们"
+    }
+  },
+  "ui": {
+    "languageSelector": "选择语言",
+    "tryNow": "立即试用",
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "subscribe": "立即订阅"
+  }
+}
