@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test I18n</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-item { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>I18n Test Page</h1>
+    
+    <div class="test-item">
+        <p>Original: <span data-i18n="header.title">Grok4 国内使用指南</span></p>
+    </div>
+    
+    <div class="test-item">
+        <p>Original: <span data-i18n="header.subtitle">体验xAI最强AI助手 · 国内直连 · 实时联网</span></p>
+    </div>
+    
+    <div class="test-item">
+        <button onclick="testTranslation()">Test Translation to English</button>
+    </div>
+    
+    <div id="debug-info"></div>
+    
+    <script>
+        // 简化版翻译测试
+        async function testTranslation() {
+            try {
+                console.log('Testing translation...');
+                const response = await fetch('./languages/en-US.json');
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const translations = await response.json();
+                console.log('Translations loaded:', translations);
+                
+                // 手动应用翻译
+                const elements = document.querySelectorAll('[data-i18n]');
+                elements.forEach(element => {
+                    const key = element.getAttribute('data-i18n');
+                    const translation = getNestedValue(translations, key);
+                    if (translation) {
+                        element.textContent = translation;
+                        console.log(`Translated ${key}: ${translation}`);
+                    }
+                });
+                
+                document.getElementById('debug-info').innerHTML = '<p style="color: green;">Translation test completed!</p>';
+                
+            } catch (error) {
+                console.error('Translation test failed:', error);
+                document.getElementById('debug-info').innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        function getNestedValue(obj, key) {
+            return key.split('.').reduce((current, prop) => current && current[prop], obj);
+        }
+    </script>
+</body>
+</html>
