@@ -1,8 +1,8 @@
 # GitHub Pages 配置
 title: "Grok AI - 智能对话助手"
 description: "现代化的AI对话助手展示页面，具有美观的UI设计和自动更新功能"
-url: "https://chinamanor.github.io"  # 替换为您的GitHub Pages URL
-baseurl: "/grok3.asia"  # 替换为您的仓库名称
+url: "https://xianyu110.github.io"  # 替换为您的GitHub Pages URL
+baseurl: "/grok4"  # 替换为您的仓库名称
 
 # 作者信息
 author:
@@ -12,7 +12,7 @@ author:
 # 构建设置
 markdown: kramdown
 highlighter: rouge
-theme: minima
+# theme: minima  # 注释掉主题以使用自定义CSS
 
 # 插件
 plugins:
@@ -53,7 +53,7 @@ timezone: Asia/Shanghai
 
 # 社交媒体
 social:
-  github: "chinamanor/grok3.asia"  # 替换为您的GitHub仓库
+  github: "xianyu110/grok4"  # 替换为您的GitHub仓库
   twitter: "grokai"
 
 # Google Analytics (可选)
