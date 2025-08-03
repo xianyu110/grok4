@@ -1,141 +1,168 @@
 {
   "meta": {
-    "title": "Grok4 中国使用ガイド - 最強AIアシスタント",
-    "description": "Grok4中国アクセス完全ガイド、xAI最新AI技術を体験、VPN不要の直接接続使用"
+    "title": "Grok4が完全制覇！マスクのxAI旗艦モデル - 中国直接アクセスガイド",
+    "description": "中国でのGrok4完全アクセスガイド、xAIの最新AI技術を体験、VPN不要で直接接続"
   },
-  "header": {
-    "title": "Grok4 中国使用ガイド",
-    "subtitle": "xAI最強AIアシスタントを体験 · 中国直接接続 · リアルタイムインターネット",
-    "heroText": "🚀 AI新境地を解放"
-  },
-  "features": {
-    "title": "Grok4 コア機能",
-    "items": [
-      "リアルタイムインターネット検索",
-      "マルチモーダル理解能力",
-      "ユーモラスな会話スタイル",
-      "最新情報取得",
-      "強力な推論能力",
-      "コード生成最適化"
-    ]
-  },
-  "comparison": {
-    "title": "AIモデル比較",
-    "models": [
-      {
-        "name": "Grok4",
-        "strengths": ["リアルタイム情報", "ユーモラスな会話", "強い推論能力"],
-        "rating": 9.5
-      },
-      {
-        "name": "GPT-4",
-        "strengths": ["テキスト生成", "コード記述", "豊富な知識"],
-        "rating": 9.2
-      },
-      {
-        "name": "Claude",
-        "strengths": ["長文分析", "高い安全性", "明確な論理"],
-        "rating": 9.0
-      }
-    ]
-  },
-  "usage": {
-    "title": "使用プラン",
-    "methods": [
-      {
-        "title": "公式サブスクリプション",
-        "price": "¥2,400/月",
-        "features": ["完全機能", "優先サポート", "無制限使用"],
-        "requirements": "X Premiumサブスクリプション必要"
-      },
-      {
-        "title": "ミラー直接アクセス",
-        "price": "¥990/月",
-        "features": ["中国直接接続", "VPN不要", "安定で高速"],
-        "requirements": "ゼロハードル使用"
-      },
-      {
-        "title": "API呼び出し",
-        "price": "従量課金",
-        "features": ["開発統合", "柔軟な呼び出し", "コスト制御可能"],
-        "requirements": "技術開発ニーズ"
-      }
-    ]
-  },
-  "guide": {
-    "title": "クイックスタート",
-    "steps": [
-      {
-        "title": "アクセス方法を選択",
-        "description": "ニーズに応じて適切な使用プランを選択"
-      },
-      {
-        "title": "アカウント作成",
-        "description": "アカウント登録と本人確認を完了"
-      },
-      {
-        "title": "会話開始",
-        "description": "Grok4の強力なAI能力を体験"
-      }
-    ]
-  },
-  "showcase": {
-    "title": "応用シーン",
-    "cases": [
-      {
-        "title": "リアルタイム情報クエリ",
-        "description": "最新ニュース、株価、天気などのリアルタイム情報を取得"
-      },
-      {
-        "title": "創作コンテンツ生成",
-        "description": "執筆アシスタント、マーケティングコピー、創作企画"
-      },
-      {
-        "title": "技術問題解答",
-        "description": "プログラミングデバッグ、技術選定、アーキテクチャ設計"
-      },
-      {
-        "title": "学習指導",
-        "description": "知識問答、論文執筆、研究分析"
-      }
-    ]
-  },
-  "faq": {
-    "title": "よくある質問",
-    "items": [
-      {
-        "question": "Grok4は他のAIと比べて何が優れていますか？",
-        "answer": "Grok4はリアルタイムインターネット能力を持ち、最新情報を取得でき、より自然でユーモラスな会話スタイル、より強い推論能力を持っています"
-      },
-      {
-        "question": "中国のユーザーはどのように安定して使用できますか？",
-        "answer": "国内ミラーサービスの使用をお勧めします。VPN不要、アクセス速度が速く、サービスが安定しています"
-      },
-      {
-        "question": "どの機能をサポートしていますか？",
-        "answer": "テキスト対話、画像分析、コード生成、リアルタイム検索、マルチターン対話など全機能をサポート"
-      }
-    ]
-  },
-  "cta": {
-    "title": "今すぐGrok4を体験",
-    "description": "AI革命に参加し、最先端の人工知能技術を体験",
-    "button": "開始する"
-  },
-  "footer": {
-    "copyright": "© 2025 Grok4.cn. 全著作権所有",
-    "links": {
-      "about": "私たちについて",
-      "privacy": "プライバシーポリシー",
-      "terms": "利用規約",
-      "contact": "お問い合わせ"
+  "hero": {
+    "badge": "🚀 2025年AI王者",
+    "title": "Grok4が完全制覇！<br>マスクのxAI旗艦モデルが世界を震撼",
+    "subtitle": "30億ドル投資で構築されたAI旗艦、LMSYS ArenaブラインドテストでOpenAI、Geminiなど頂点競合を全面的に超越！",
+    "features": [
+      "🎯 革命的Deepsearch技術",
+      "🧠 画期的感情インタラクション",
+      "⚡ 世界最速ミラーサイト"
+    ],
+    "cta": {
+      "primary": "🚀 今すぐ体験",
+      "secondary": "📊 比較を見る"
     }
   },
+  "experience": {
+    "title": "🌟 中国で最も安定したGrok4アクセス方案",
+    "plans": {
+      "premium": {
+        "name": "💎 プロフェッショナル版",
+        "price": "¥1,500",
+        "period": "/月",
+        "features": [
+          "✅ Grok4完全機能",
+          "✅ 中国直接接続、VPN不要",
+          "✅ アカウント停止リスクなし",
+          "✅ 24時間安定サービス",
+          "✅ チャット履歴プライバシー保護"
+        ],
+        "button": "今すぐ開始"
+      },
+      "trial": {
+        "name": "🎯 体験版",
+        "price": "¥20",
+        "period": "/日",
+        "features": [
+          "✅ 基本Grok4アクセス",
+          "✅ 日割り課金、柔軟使用",
+          "✅ 未交換なら期限なし",
+          "✅ 3時間内40回使用可能"
+        ],
+        "button": "無料試用"
+      }
+    }
+  },
+  "comparison": {
+    "title": "🏆 LMSYS Arenaブラインドテスト：Grok4完全勝利",
+    "description": "権威あるLMSYS Arenaブラインドテスト評価で、Grok4は驚異的な実力を示し、3つの核心評価領域でOpenAI、Geminiなど頂点競合を全面的に超越",
+    "table": {
+      "model": "モデル",
+      "result": "パフォーマンス",
+      "description": "説明"
+    },
+    "models": {
+      "grok": {
+        "name": "Grok4",
+        "result": "チャンピオン、完全勝利",
+        "description": "Deepsearch技術+独特な個性、AI認知能力を革新"
+      },
+      "openai": {
+        "name": "OpenAI GPT-4",
+        "result": "❌ 敗北",
+        "description": "従来の回避戦略、真の判断力不足"
+      },
+      "gemini": {
+        "name": "Google Gemini",
+        "result": "❌ 敗北",
+        "description": "機能制限が多い、応答速度が遅い"
+      },
+      "claude": {
+        "name": "Claude 4",
+        "result": "❌ 敗北",
+        "description": "保守的設計、画期的革新不足"
+      }
+    }
+  },
+  "advantages": {
+    "title": "🏆 Grok4がなぜこれほど強力なのか",
+    "deepsearch": {
+      "title": "革命的Deepsearch技術",
+      "description": "AI認知能力を完全に革新し、情報源の真実性と信頼性を確保し、偽情報の悩みに別れを告げる"
+    },
+    "personality": {
+      "title": "画期的感情インタラクション体験",
+      "description": "複雑な倫理道徳問題を処理する際に独特な個性を示し、もはや単純に問題をユーザーに投げ返さず、真実で洞察力に富む"
+    },
+    "performance": {
+      "title": "30億ドル投資で構築",
+      "description": "マスクのxAIが巨額投資で業界最先端のAIアーキテクチャを構築、性能と安定性の両方が業界頂点に到達"
+    }
+  },
+  "painPoints": {
+    "title": "⚠️ 公式Grok使用の痛点",
+    "cost": "月額30ドル（Grok Pro）",
+    "network": "Visaカードとインターネット回線が必要",
+    "restrictions": "中国ユーザーは停止されやすく、体験が良くない"
+  },
+  "solutions": {
+    "title": "💡 私たちの優位性",
+    "price": {
+      "title": "💰 価格優位性",
+      "description": "公式サイトは月額30ドル（約4500円）が必要、私たちは月額1500円のみ"
+    },
+    "privacy": {
+      "title": "🔒 プライバシー保護",
+      "description": "チャット記録が失われず、認証コードの安全な移行"
+    },
+    "safety": {
+      "title": "🛡️ 停止リスクなし",
+      "description": "問題が発生しても、私たちがすべての責任を負います"
+    },
+    "original": {
+      "title": "🔄 公式オリジナルミラー",
+      "description": "アカウント切り替えサポート、3時間内に40回使用可能"
+    },
+    "flexible": {
+      "title": "📅 柔軟な支払い",
+      "description": "日割り支払い、未交換なら期限なし、最短1日から"
+    },
+    "easy": {
+      "title": "🎯 使いやすい",
+      "description": "Visaカード不要、VPN不要、IP停止の心配なし"
+    }
+  },
+  "faq": {
+    "title": "❓ よくある質問",
+    "items": [
+      {
+        "question": "VPNは必要ですか？",
+        "answer": "不要です、中国国内での直接アクセスサービスを提供しています"
+      },
+      {
+        "question": "どんな機能がサポートされていますか？",
+        "answer": "テキスト対話、Deepsearch、コード生成などGrok4の完全機能"
+      },
+      {
+        "question": "技術サポートはどのように受けられますか？",
+        "answer": "24時間オンラインカスタマーサービスと技術サポートを提供"
+      }
+    ]
+  },
+  "contact": {
+    "title": "📞 お問い合わせ",
+    "description": "ご質問があれば、いつでもお気軽にお問い合わせください：",
+    "wechat": "WeChat: coder-maynor",
+    "github": "GitHub: @chinamanor",
+    "store": "公式体験サイト"
+  },
+  "finalCta": {
+    "title": "🎯 今すぐAI新時代を開始",
+    "description": "革命的Deepsearch技術、独特な個性、強力な性能を持つGrok4は、2025年AI界最強の旗艦に値する。",
+    "primary": "🚀 今すぐGrok4を体験",
+    "secondary": "📚 バックアップアクセスアドレス"
+  },
+  "footer": {
+    "copyright": "© 2025 Grok4.Asia. 高品質AI会話サービスを提供。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ"
+  },
   "ui": {
-    "languageSelector": "言語選択",
-    "tryNow": "今すぐ試す",
-    "learnMore": "詳細を見る",
-    "getStarted": "開始する",
-    "subscribe": "今すぐ購読"
+    "languageSelector": "言語を選択"
   }
 }

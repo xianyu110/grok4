@@ -1,141 +1,168 @@
 {
   "meta": {
-    "title": "Grok4 国内使用指南 - 最强AI助手",
+    "title": "Grok4 彻底杀疯了！马斯克xAI旗舰模型 - 国内直连使用指南",
     "description": "Grok4国内访问完全指南，体验xAI最新AI技术，无需翻墙直连使用"
   },
-  "header": {
-    "title": "Grok4 国内使用指南",
-    "subtitle": "体验xAI最强AI助手 · 国内直连 · 实时联网",
-    "heroText": "🚀 解锁AI新境界"
+  "hero": {
+    "badge": "🚀 2025年AI领域王者",
+    "title": "Grok4 彻底杀疯了！<br>马斯克xAI旗舰模型震撼登场",
+    "subtitle": "投资30亿美元打造的AI旗舰，在LMSYS Arena盲测中全面超越OpenAI、Gemini等顶尖对手！",
+    "features": [
+      "🎯 Deepsearch革命性技术",
+      "🧠 突破性情感交互",
+      "⚡ 全网最快镜像站"
+    ],
+    "cta": {
+      "primary": "🚀 立即体验",
+      "secondary": "📊 查看对比"
+    }
   },
-  "features": {
-    "title": "Grok4 核心特性",
-    "items": [
-      "实时联网搜索",
-      "多模态理解能力",
-      "幽默风趣对话风格",
-      "最新信息获取",
-      "强大推理能力",
-      "代码生成优化"
-    ]
+  "experience": {
+    "title": "🌟 国内最稳定的Grok4访问方案",
+    "plans": {
+      "premium": {
+        "name": "💎 专业版",
+        "price": "￥66",
+        "period": "/月",
+        "features": [
+          "✅ Grok4 完整功能",
+          "✅ 国内直连，无需科学上网",
+          "✅ 无封号风险",
+          "✅ 24小时稳定服务",
+          "✅ 保障聊天记录隐私"
+        ],
+        "button": "立即开始"
+      },
+      "trial": {
+        "name": "🎯 体验版",
+        "price": "￥0.99",
+        "period": "/天",
+        "features": [
+          "✅ 基础Grok4访问",
+          "✅ 按天付费，灵活使用",
+          "✅ 不兑换不失效",
+          "✅ 3小时内可用40次"
+        ],
+        "button": "免费试用"
+      }
+    }
   },
   "comparison": {
-    "title": "AI模型对比",
-    "models": [
-      {
+    "title": "🏆 LMSYS Arena盲测：Grok4全面胜出",
+    "description": "在权威的LMSYS Arena盲测评估中，Grok4展现出惊人实力，在三大核心评测领域全面超越OpenAI、Gemini等顶尖对手",
+    "table": {
+      "model": "模型",
+      "result": "表现",
+      "description": "说明"
+    },
+    "models": {
+      "grok": {
         "name": "Grok4",
-        "strengths": ["实时信息", "幽默对话", "推理能力强"],
-        "rating": 9.5
+        "result": "擂主，全面胜出",
+        "description": "Deepsearch技术+独特个性，革新AI认知能力"
       },
-      {
-        "name": "GPT-4",
-        "strengths": ["文本生成", "代码编写", "知识丰富"],
-        "rating": 9.2
+      "openai": {
+        "name": "OpenAI GPT-4",
+        "result": "❌ 落败",
+        "description": "传统回避策略，缺乏真实判断"
       },
-      {
-        "name": "Claude",
-        "strengths": ["长文分析", "安全性高", "逻辑清晰"],
-        "rating": 9.0
+      "gemini": {
+        "name": "Google Gemini",
+        "result": "❌ 落败",
+        "description": "功能限制较多，响应速度偏慢"
+      },
+      "claude": {
+        "name": "Claude 4",
+        "result": "❌ 落败",
+        "description": "保守设计，缺乏突破性创新"
       }
-    ]
+    }
   },
-  "usage": {
-    "title": "使用方案",
-    "methods": [
-      {
-        "title": "官方订阅",
-        "price": "$16/月",
-        "features": ["完整功能", "优先支持", "无限使用"],
-        "requirements": "需要X Premium订阅"
-      },
-      {
-        "title": "镜像直连",
-        "price": "￥66/月",
-        "features": ["国内直连", "无需翻墙", "稳定快速"],
-        "requirements": "零门槛使用"
-      },
-      {
-        "title": "API调用",
-        "price": "按量计费",
-        "features": ["开发集成", "灵活调用", "成本可控"],
-        "requirements": "技术开发需求"
-      }
-    ]
+  "advantages": {
+    "title": "🏆 Grok4 为什么如此强大",
+    "deepsearch": {
+      "title": "革命性Deepsearch技术",
+      "description": "彻底革新AI认知能力，确保信息源的真实性与可靠性，告别虚假信息困扰"
+    },
+    "personality": {
+      "title": "突破性情感交互体验",
+      "description": "处理复杂伦理道德议题时展现独特个性，不再简单地将问题抛回用户，真实而富有洞察力"
+    },
+    "performance": {
+      "title": "投资30亿美元打造",
+      "description": "马斯克xAI重金投入，构建业界最先进的AI架构，性能和稳定性均达到业界巅峰"
+    }
   },
-  "guide": {
-    "title": "快速开始",
-    "steps": [
-      {
-        "title": "选择访问方式",
-        "description": "根据需求选择合适的使用方案"
-      },
-      {
-        "title": "创建账号",
-        "description": "完成账号注册和实名认证"
-      },
-      {
-        "title": "开始对话",
-        "description": "体验Grok4的强大AI能力"
-      }
-    ]
+  "painPoints": {
+    "title": "⚠️ 官方Grok使用痛点",
+    "cost": "月费30美元（Grok Pro）",
+    "network": "需要Visa卡和科学上网",
+    "restrictions": "国内用户易被封号，体验欠佳"
   },
-  "showcase": {
-    "title": "应用场景",
-    "cases": [
-      {
-        "title": "实时资讯查询",
-        "description": "获取最新新闻、股价、天气等实时信息"
-      },
-      {
-        "title": "创意内容生成",
-        "description": "写作助手、营销文案、创意策划"
-      },
-      {
-        "title": "技术问题解答",
-        "description": "编程调试、技术选型、架构设计"
-      },
-      {
-        "title": "学习辅导",
-        "description": "知识问答、论文写作、研究分析"
-      }
-    ]
+  "solutions": {
+    "title": "💡 我们的优势",
+    "price": {
+      "title": "💰 价格优势",
+      "description": "官网需要30美元/月（约210元人民币），我们只需66元/月"
+    },
+    "privacy": {
+      "title": "🔒 隐私保障",
+      "description": "聊天记录不丢失，授权码安全迁移"
+    },
+    "safety": {
+      "title": "🛡️ 无封号风险",
+      "description": "即使出现问题，我们承担所有责任"
+    },
+    "original": {
+      "title": "🔄 官方原版镜像",
+      "description": "支持换号，3小时内可用40次"
+    },
+    "flexible": {
+      "title": "📅 灵活付费",
+      "description": "按天付费，不兑换不失效，最低1天起"
+    },
+    "easy": {
+      "title": "🎯 使用简单",
+      "description": "无需Visa卡，无需科学上网，无IP封号担忧"
+    }
   },
   "faq": {
-    "title": "常见问题",
+    "title": "❓ 常见问题",
     "items": [
       {
-        "question": "Grok4相比其他AI有什么优势？",
-        "answer": "Grok4具备实时联网能力，能获取最新信息，对话风格更加幽默自然，推理能力更强"
-      },
-      {
-        "question": "国内用户如何稳定使用？",
-        "answer": "推荐使用国内镜像服务，无需翻墙，访问速度快，服务稳定"
+        "question": "需要VPN吗？",
+        "answer": "不需要，我们提供国内直连访问服务"
       },
       {
         "question": "支持哪些功能？",
-        "answer": "支持文本对话、图片分析、代码生成、实时搜索、多轮对话等全部功能"
+        "answer": "Grok4完整功能包括文本对话、Deepsearch、代码生成等"
+      },
+      {
+        "question": "如何获得技术支持？",
+        "answer": "提供24小时在线客服和技术支持"
       }
     ]
   },
-  "cta": {
-    "title": "立即体验Grok4",
-    "description": "加入AI革命，体验最前沿的人工智能技术",
-    "button": "开始使用"
+  "contact": {
+    "title": "📞 联系我们",
+    "description": "如有任何问题，欢迎随时联系：",
+    "wechat": "微信：coder-maynor",
+    "github": "GitHub：@chinamanor",
+    "store": "官方体验站"
+  },
+  "finalCta": {
+    "title": "🎯 立即开启AI新时代",
+    "description": "Grok4 以革命性Deepsearch技术、独特个性和强大性能，无愧2025年AI界最强旗舰。",
+    "primary": "🚀 立即体验Grok4",
+    "secondary": "📚 备用访问地址"
   },
   "footer": {
-    "copyright": "© 2025 Grok4.cn. 保留所有权利",
-    "links": {
-      "about": "关于我们",
-      "privacy": "隐私政策", 
-      "terms": "使用条款",
-      "contact": "联系我们"
-    }
+    "copyright": "© 2025 Grok4.Asia. 提供高品质AI会话服务。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们"
   },
   "ui": {
-    "languageSelector": "选择语言",
-    "tryNow": "立即试用",
-    "learnMore": "了解更多",
-    "getStarted": "开始使用",
-    "subscribe": "立即订阅"
+    "languageSelector": "选择语言"
   }
 }
