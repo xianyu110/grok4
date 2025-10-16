@@ -5,7 +5,7 @@
 国内能轻松使用的 **Grok4 中文版** ，**无需翻墙**，**支持 Grok-4 及中文版功能**   
 本指南提供全面的 **Grok4 国内使用指南**，包括国内可用的 **Grok4 网页版**、**Grok4 国内入口**、**Grok 官网平替**和详细使用教程，帮助您快速使用上 grok~
 
-**Grok4 镜像网站：https://agi.maynor1024.live/list/#/**
+**Grok4 镜像网站：https://agi2.maynor1024.live/list/#/**
 
 ---
 
@@ -25,9 +25,7 @@
 
 以下是我们精选的国内优质 **Grok 中文版镜像网站**，无需翻墙即可使用：
 
-* **https://agi.maynor1024.live/list/#/** - 主推荐站点，支持 Grok-4、Grok-3 及多种AI模型
-* **https://vlink.cc/maynorai?s=t3AIM1m0S_** - 备用访问地址
-* **https://grok.maynor1024.live/** - 专业Grok体验站
+* **https://agi2.maynor1024.live/list/#/** - 主推荐站点，支持 Grok-4、Grok-3 及多种AI模型
 
 如果您在国内使用 Grok，强烈建议使用上述 **Grok 中文版镜像网站**
 
@@ -58,10 +56,9 @@
 
 扫描下方二维码，即刻体验：
 
-![Grok官方二维码](https://restname.oss-cn-hangzhou.aliyuncs.com/img2/202502261232069.png)
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/bee7e8b5-ce05-49bd-a24f-628d78334502" />
 
-https://vlink.cc/maynorai?s=t3AIM1m0S_
-
+https://link3.cc/maynorai
 如无法访问,可添加微信客服 vx: coder-maynor
 
 ## 为什么选我们？
