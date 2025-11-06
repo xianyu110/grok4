@@ -109,9 +109,8 @@ Grok-3以其独特的个性魅力，展现出真实而富有洞察力的判断�
 
 完美复刻原版界面与功能，诚邀您亲身体验这款革命性的AI产品，期待听到您的使用感受！
 
-https://grok.maynor1024.live/
+**Grok4 镜像网站：https://agi2.maynor1024.live/list/#/**
 
-![访问二维码](https://restname.oss-cn-hangzhou.aliyuncs.com/img2/202502261232069.png)
 
 ---
 
