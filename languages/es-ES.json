@@ -164,5 +164,6 @@
   },
   "ui": {
     "languageSelector": "Seleccionar Idioma"
-  }
+  },
+  "dailyUpdate": "Actualizado Hoy"
 }

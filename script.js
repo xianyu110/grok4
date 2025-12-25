@@ -130,6 +130,36 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // 显示今日日期（每日更新标识）
+    function displayDailyDate() {
+        const dailyDateElement = document.getElementById('daily-date');
+        if (dailyDateElement) {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const weekDays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            const weekDay = weekDays[now.getDay()];
+
+            dailyDateElement.textContent = `${year}年${month}月${day}日 ${weekDay}`;
+
+            // 存储今天的日期，用于检测跨天
+            const todayKey = `${year}-${month}-${day}`;
+            const storedDate = localStorage.getItem('lastVisitDate');
+
+            // 如果是新的一天，添加动画效果
+            if (storedDate !== todayKey) {
+                dailyDateElement.classList.add('fresh-update');
+                localStorage.setItem('lastVisitDate', todayKey);
+
+                // 3秒后移除动画类
+                setTimeout(() => {
+                    dailyDateElement.classList.remove('fresh-update');
+                }, 3000);
+            }
+        }
+    }
+
     // 显示最后更新时间
     function displayLastUpdate() {
         const lastUpdateElement = document.getElementById('last-update');
@@ -270,6 +300,8 @@ document.addEventListener('DOMContentLoaded', function() {
         animateNumbers();
         handleNavbarScroll();
         highlightActiveNavLink();
+        displayDailyDate(); // 显示今日日期
+        loadDailyArticle(); // 加载每日文章
         displayLastUpdate();
         handleButtonClicks();
         addPageLoadAnimation();
@@ -277,8 +309,11 @@ document.addEventListener('DOMContentLoaded', function() {
         createParticleEffect();
         addKeyboardNavigation();
 
-        // 定期更新时间
-        setInterval(displayLastUpdate, 60000); // 每分钟更新一次
+        // 定期更新时间（每分钟检查一次日期变化）
+        setInterval(() => {
+            displayDailyDate();
+            displayLastUpdate();
+        }, 60000);
     }
 
     // 启动初始化

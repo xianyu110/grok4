@@ -164,5 +164,6 @@
   },
   "ui": {
     "languageSelector": "Select Language"
-  }
+  },
+  "dailyUpdate": "Updated Today"
 }

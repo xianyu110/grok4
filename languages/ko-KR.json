@@ -164,5 +164,6 @@
   },
   "ui": {
     "languageSelector": "언어 선택"
-  }
+  },
+  "dailyUpdate": "오늘 업데이트"
 }

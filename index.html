@@ -11,7 +11,12 @@
 </head>
 <body>
     <!-- Hero Section -->
-    <header class="hero">        
+    <header class="hero">
+        <div class="daily-update-bar">
+            <span class="update-icon">📅</span>
+            <span class="update-text" data-i18n="dailyUpdate">今日更新</span>
+            <span class="update-date" id="daily-date"></span>
+        </div>
         <div class="container">
             <div class="hero-badge" data-i18n="hero.badge">🚀 2025年AI领域王者</div>
             <h1 class="hero-title" data-i18n="hero.title">Grok4 彻底杀疯了！<br>马斯克xAI旗舰模型震撼登场</h1>
@@ -70,6 +75,20 @@
                         </ul>
                         <a href="https://agi.maynor1024.live/" target="_blank" class="plan-button" data-i18n="experience.plans.trial.button">免费试用</a>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Daily Article Section -->
+        <section class="daily-article">
+            <div class="container">
+                <div class="article-header">
+                    <h2 data-i18n="dailyArticle.title">📰 每日资讯</h2>
+                    <div class="article-date" id="article-date"></div>
+                </div>
+                <div class="article-content" id="daily-article">
+                    <!-- 文章内容将通过 JavaScript 动态加载 -->
+                    <div class="article-loading">加载中...</div>
                 </div>
             </div>
         </section>

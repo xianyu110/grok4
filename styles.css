@@ -30,6 +30,63 @@ body {
     overflow: hidden;
 }
 
+/* 每日更新标识条 */
+.daily-update-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px;
+    font-size: 0.95rem;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.daily-update-bar .update-icon {
+    font-size: 1.1rem;
+}
+
+.daily-update-bar .update-text {
+    font-weight: 500;
+    opacity: 0.95;
+}
+
+.daily-update-bar .update-date {
+    font-weight: 600;
+    color: #ffd700;
+    opacity: 1;
+}
+
+/* 新一天更新动画 */
+.daily-update-bar .update-date.fresh-update {
+    animation: newDayPulse 2s ease-in-out;
+}
+
+@keyframes newDayPulse {
+    0%, 100% {
+        transform: scale(1);
+        color: #ffd700;
+    }
+    25% {
+        transform: scale(1.2);
+        color: #ffec8b;
+    }
+    50% {
+        transform: scale(1);
+        color: #ffd700;
+    }
+    75% {
+        transform: scale(1.15);
+        color: #ffec8b;
+    }
+}
+
 .hero-badge {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
@@ -123,6 +180,100 @@ body {
 /* 主要内容区域 */
 main {
     background: #f7fafc;
+}
+
+/* Daily Article 每日文章区域 */
+.daily-article {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.article-header h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+.article-date {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.article-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.article-item {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.article-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #667eea;
+}
+
+.article-body {
+    color: #4a5568;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.article-body p {
+    margin-bottom: 20px;
+}
+
+.article-body h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.article-body ul {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+.article-body li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.article-body li strong {
+    color: #667eea;
+}
+
+.article-loading {
+    text-align: center;
+    padding: 40px;
+    color: #718096;
+    font-size: 1.1rem;
 }
 
 /* Experience 体验区域 */
@@ -770,6 +921,12 @@ footer {
 /* 响应式设计 */
 /* 响应式设计 */
 @media (max-width: 768px) {
+    .daily-update-bar {
+        font-size: 0.85rem;
+        padding: 8px 15px;
+        gap: 6px;
+    }
+
     .hero {
         padding: 60px 0;
     }
