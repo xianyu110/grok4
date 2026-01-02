@@ -1,22 +1,5 @@
 # Grok：马斯克Grok4.1 国内使用指南~ 【12月最新更新】
 
-<div align="center">
-
-**📅 今日更新：**<b><span id="daily-date"></span></b>
-
-<script>
-    (function() {
-        const now = new Date();
-        const year = now.getFullYear();
-        const month = String(now.getMonth() + 1).padStart(2, '0');
-        const day = String(now.getDate()).padStart(2, '0');
-        const weekDays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
-        const weekDay = weekDays[now.getDay()];
-        document.getElementById('daily-date').textContent = `${year}年${month}月${day}日 ${weekDay}`;
-    })();
-</script>
-
-</div>
 
 ---
 
