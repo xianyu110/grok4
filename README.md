@@ -8,7 +8,7 @@
 国内能轻松使用的 **Grok 4.1 中文版** ，**无需翻墙**，**支持 Grok-4.1 Thinking 及中文版功能**
 本指南提供全面的 **Grok 4.1 国内使用指南**，包括国内可用的 **Grok 4.1 网页版**、**Grok 4.1 国内入口**、**Grok 官网平替**和详细使用教程，帮助您快速体验这款霸榜 AI~
 
-**Grok 4.1 免费体验通道：[https://maynorai.top/list/#/home](https://maynorai.top/list/#/home)**
+**Grok 4.1 免费体验通道：https://kelaode.maynorai.top/list/#/home**
 
 ---
 
@@ -121,7 +121,7 @@ Grok 4.1 的最大飞跃之一，就是情商！在 EQ-Bench 测试中，Grok 4.
 
 无需任何特殊设置，为您提供最流畅、最便捷的使用体验。完美复刻原版界面与功能，诚邀您亲身体验这款革命性的 AI 产品！
 
-**立即体验 Grok 4.1 中文版：[https://maynorai.top/list/#/home](https://maynorai.top/list/#/home)**
+**立即体验 Grok 4.1 中文版：https://kelaode.maynorai.top/list/#/home **
 
 ![Footer Banner](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2giaesKM5DTibuVMYWBicMEqM3icAibTHIyV5f7tRgJq1jeYwmmmvAzQGTAUw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=9)
 
