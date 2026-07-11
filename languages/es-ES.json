@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "¡Grok4 Domina Completamente! Modelo Insignia xAI de Musk - Guía de Acceso Directo China",
-    "description": "Guía completa de acceso a Grok4 en China, experimenta la última tecnología AI de xAI con conexión directa, no se requiere VPN"
+    "title": "Guía de Grok 4.5: API, contexto de 500K, precios y acceso",
+    "description": "Guía actual de Grok 4.5 con el ID oficial, contexto de 500K, entrada de imágenes, precios API, razonamiento configurable y opciones de acceso."
   },
   "hero": {
-    "badge": "🚀 Rey de AI 2025",
-    "title": "¡Grok4 Domina Completamente!<br>El Modelo Insignia xAI de Musk Conmociona al Mundo",
-    "subtitle": "Insignia de AI construida con inversión de $3 mil millones, superando comprehensivamente a OpenAI, Gemini y otros competidores de élite en pruebas ciegas de LMSYS Arena!",
+    "badge": "🚀 Actualización oficial · julio de 2026",
+    "title": "Grok 4.5 ya aparece en el catálogo oficial de modelos de xAI",
+    "subtitle": "El modelo oficial grok-4.5 ofrece 500K tokens de contexto, entrada de texto e imagen, razonamiento configurable, llamadas a funciones y salidas estructuradas.",
     "features": [
-      "🎯 Tecnología Deepsearch Revolucionaria",
-      "🧠 Interacción Emocional Innovadora",
-      "⚡ Sitio Espejo Más Rápido del Mundo"
+      "🎯 Contexto de 500K tokens",
+      "🧠 Razonamiento configurable y herramientas",
+      "⚡ $2 entrada / $6 salida por 1M tokens"
     ],
     "cta": {
       "primary": "🚀 Experimentar Ahora",
@@ -18,18 +18,18 @@
     }
   },
   "experience": {
-    "title": "🌟 Solución de Acceso a Grok4 Más Estable en China",
+    "title": "🌟 Opciones de acceso y prueba de Grok 4.5",
     "plans": {
       "premium": {
         "name": "💎 Profesional",
         "price": "€10",
         "period": "/mes",
         "features": [
-          "✅ Funciones Completas de Grok4",
+          "✅ Acceso a Grok 4.5 y varios modelos",
           "✅ Conexión Directa China, Sin VPN Necesaria",
-          "✅ Sin Riesgo de Prohibición de Cuenta",
+          "✅ El modelo real depende de la lista del servicio",
           "✅ Servicio Estable 24/7",
-          "✅ Privacidad Segura del Historial de Chat"
+          "✅ Revisa privacidad y datos antes de usar"
         ],
         "button": "Empezar Ahora"
       },
@@ -38,18 +38,24 @@
         "price": "€0.15",
         "period": "/día",
         "features": [
-          "✅ Acceso Básico a Grok4",
+          "✅ Verifica el modelo real al entrar",
           "✅ Pago Diario, Uso Flexible",
-          "✅ Sin Vencimiento si No se Canjea",
-          "✅ 40 Usos en 3 Horas"
+          "✅ Los planes no usados siguen las reglas del servicio",
+          "✅ Límites y cuotas según la página del servicio"
         ],
         "button": "Prueba Gratuita"
       }
     }
   },
+  "dailyArticle": {
+    "title": "📰 Estado oficial de Grok 4.5",
+    "headline": "xAI ya publica grok-4.5",
+    "summary": "A 11 de julio de 2026, el catálogo oficial de xAI presenta Grok 4.5 como su modelo insignia para código, chat y uso de herramientas por agentes.",
+    "details": "El catálogo indica 500K tokens de contexto, entrada de texto e imagen, salida de texto, razonamiento configurable, llamadas a funciones y salidas estructuradas. Playground figura como coming soon."
+  },
   "comparison": {
-    "title": "🏆 Prueba Ciega LMSYS Arena: Grok4 Gana Completamente",
-    "description": "En la evaluación autorizada de prueba ciega de LMSYS Arena, Grok4 demuestra fuerza asombrosa, superando comprehensivamente a OpenAI, Gemini y otros competidores de élite en tres áreas de evaluación principales",
+    "title": "📊 Especificaciones oficiales de Grok 4.5",
+    "description": "Estos datos proceden del catálogo oficial de xAI. Las imágenes históricas del README se conservan, pero no se presentan como resultados de Grok 4.5.",
     "table": {
       "model": "Modelo",
       "result": "Rendimiento",
@@ -57,73 +63,73 @@
     },
     "models": {
       "grok": {
-        "name": "Grok4",
-        "result": "Campeón, Victoria Completa",
-        "description": "Tecnología Deepsearch + personalidad única, revolucionando la capacidad cognitiva de AI"
+        "name": "Grok 4.5",
+        "result": "Último modelo insignia oficial",
+        "description": "ID: grok-4.5; alias: grok-4.5-latest"
       },
       "openai": {
-        "name": "OpenAI GPT-4",
-        "result": "❌ Derrotado",
-        "description": "Estrategia de evasión tradicional, falta de juicio real"
+        "name": "Contexto",
+        "result": "500K tokens",
+        "description": "Por encima de 200K se aplica precio de contexto largo"
       },
       "gemini": {
-        "name": "Google Gemini",
-        "result": "❌ Derrotado",
-        "description": "Muchas limitaciones funcionales, velocidad de respuesta lenta"
+        "name": "Entrada y salida",
+        "result": "Texto + imagen / texto",
+        "description": "Para código, documentos, capturas y tareas de varios pasos"
       },
       "claude": {
-        "name": "Claude 4",
-        "result": "❌ Derrotado",
-        "description": "Diseño conservador, falta de innovación revolucionaria"
+        "name": "Precio API",
+        "result": "$2 entrada / $6 salida",
+        "description": "Por 1M tokens; contexto largo y caché tienen otras tarifas"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Por Qué Grok4 es Tan Poderoso",
+    "title": "🏆 Tres mejoras clave de Grok 4.5",
     "deepsearch": {
-      "title": "Tecnología Deepsearch Revolucionaria",
-      "description": "Revoluciona completamente la capacidad cognitiva de AI, asegurando la autenticidad y confiabilidad de las fuentes de información, despidiéndose de los problemas de información falsa"
+      "title": "Modelo insignia para código y tareas generales",
+      "description": "xAI posiciona Grok 4.5 como modelo recomendado para código, chat y cargas de trabajo generales."
     },
     "personality": {
-      "title": "Experiencia de Interacción Emocional Innovadora",
-      "description": "Muestra personalidad única al manejar problemas éticos y morales complejos, ya no simplemente devuelve preguntas a los usuarios, es auténtico y perspicaz"
+      "title": "Capacidades nativas para agentes",
+      "description": "La tabla oficial incluye llamadas a funciones, salidas estructuradas y razonamiento configurable."
     },
     "performance": {
-      "title": "Construido con Inversión de $3 Mil Millones",
-      "description": "La fuerte inversión de xAI de Musk construye la arquitectura de AI más avanzada de la industria, tanto el rendimiento como la estabilidad alcanzan la cima de la industria"
+      "title": "Contexto multimodal de 500K",
+      "description": "La entrada de texto e imagen permite trabajar con código largo, documentos y tareas visuales."
     }
   },
   "painPoints": {
-    "title": "⚠️ Puntos Dolorosos del Uso Oficial de Grok",
-    "cost": "Tarifa mensual de $30 (Grok Pro)",
-    "network": "Requiere tarjeta Visa e internet científico",
-    "restrictions": "Usuarios chinos fácilmente prohibidos, experiencia deficiente"
+    "title": "⚠️ Antes de usar Grok 4.5",
+    "cost": "Más de 200K tokens usa tarifas de contexto largo",
+    "network": "El Playground oficial figura actualmente como coming soon",
+    "restrictions": "La disponibilidad y las políticas de terceros pueden variar"
   },
   "solutions": {
-    "title": "💡 Nuestras Ventajas",
+    "title": "💡 Consejos de integración y selección",
     "price": {
-      "title": "💰 Ventaja de Precio",
-      "description": "El sitio oficial requiere $30/mes (~€25), nosotros solo necesitamos €10/mes"
+      "title": "💰 Precio transparente",
+      "description": "Precio base oficial: $2 entrada y $6 salida por 1M tokens"
     },
     "privacy": {
-      "title": "🔒 Protección de Privacidad",
-      "description": "Registros de chat no perdidos, migración segura de código de autorización"
+      "title": "🔒 Revisa la privacidad",
+      "description": "Confirma la política de conservación de datos de cada tercero"
     },
     "safety": {
-      "title": "🛡️ Sin Riesgo de Prohibición",
-      "description": "Incluso si ocurren problemas, asumimos toda la responsabilidad"
+      "title": "🛡️ Usa IDs oficiales",
+      "description": "La API debe usar grok-4.5 o un alias oficial"
     },
     "original": {
-      "title": "🔄 Espejo Original Oficial",
-      "description": "Soporta cambio de cuenta, 40 usos en 3 horas"
+      "title": "🔄 Controla el contexto largo",
+      "description": "Usa caché, resúmenes y fragmentación para gestionar el coste"
     },
     "flexible": {
-      "title": "📅 Pago Flexible",
-      "description": "Pago diario, sin vencimiento si no se canjea, mínimo desde 1 día"
+      "title": "📅 Valida por etapas",
+      "description": "Prueba código, herramientas y visión antes de ampliar el uso"
     },
     "easy": {
-      "title": "🎯 Fácil de Usar",
-      "description": "No se necesita tarjeta Visa, no se necesita VPN, sin preocupaciones de prohibición de IP"
+      "title": "🎯 Verifica el modelo real",
+      "description": "El título de una página no demuestra el modelo de fondo"
     }
   },
   "faq": {
@@ -135,7 +141,7 @@
       },
       {
         "question": "¿Qué funciones están soportadas?",
-        "answer": "Funciones completas de Grok4 incluyendo diálogo de texto, Deepsearch, generación de código, etc."
+        "answer": "La API oficial admite entrada de texto e imagen, salida de texto, llamadas a funciones, salidas estructuradas y razonamiento configurable."
       },
       {
         "question": "¿Cómo obtener soporte técnico?",
@@ -152,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 Comienza la Nueva Era de AI Ahora",
-    "description": "Grok4 con tecnología Deepsearch revolucionaria, personalidad única y rendimiento poderoso, merece ser la insignia más fuerte en el mundo de AI en 2025.",
-    "primary": "🚀 Experimenta Grok4 Ahora",
+    "description": "Grok 4.5 ya está en el catálogo oficial de xAI. Verifica el modelo real, el precio y la privacidad antes de usar un servicio de terceros.",
+    "primary": "🚀 Probar Grok 4.5",
     "secondary": "📚 Dirección de Acceso de Respaldo"
   },
   "footer": {
-    "copyright": "© 2025 Grok4.Asia. Proporcionando servicios de conversación AI de alta calidad.",
+    "copyright": "© 2026 Grok 4.5 Guide. Guía independiente no afiliada a xAI.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "contact": "Contáctanos"

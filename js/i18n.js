@@ -21,6 +21,7 @@ class EnhancedI18nManager {
         this.applyTranslations();
         this.createLanguageSelector();
         this.bindEvents();
+        this.updateDates();
         this.trackLanguageChange();
     }
 
@@ -229,7 +230,7 @@ class EnhancedI18nManager {
     updateFAQ() {
         const faqItems = this.t('faq.items');
         if (Array.isArray(faqItems)) {
-            const faqContainer = document.querySelector('.faq-container');
+            const faqContainer = document.querySelector('.faq-list');
             if (faqContainer) {
                 faqContainer.innerHTML = faqItems.map(item => `
                     <div class="faq-item">
@@ -239,6 +240,22 @@ class EnhancedI18nManager {
                 `).join('');
             }
         }
+    }
+
+    updateDates() {
+        const now = new Date();
+        const locale = this.currentLanguage || 'zh-CN';
+        const formattedDate = new Intl.DateTimeFormat(locale, {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            timeZone: 'Asia/Shanghai'
+        }).format(now);
+
+        const dailyDate = document.getElementById('daily-date');
+        const articleDate = document.getElementById('article-date');
+        if (dailyDate) dailyDate.textContent = formattedDate;
+        if (articleDate) articleDate.textContent = formattedDate;
     }
 
     // 创建语言选择器
@@ -370,6 +387,9 @@ class EnhancedI18nManager {
         await this.loadTranslations();
         this.applySEOOptimizations();
         this.applyTranslations();
+        this.createLanguageSelector();
+        this.bindEvents();
+        this.updateDates();
         
         // 触发语言变更事件
         this.trackLanguageChange();

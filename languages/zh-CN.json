@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Grok4 彻底杀疯了！马斯克xAI旗舰模型 - 国内直连使用指南",
-    "description": "Grok4国内访问完全指南，体验xAI最新AI技术，无需翻墙直连使用"
+    "title": "Grok 4.5 最新指南：API、500K 上下文与国内访问",
+    "description": "Grok 4.5 最新中文指南：官方模型 ID、500K 上下文、图文输入、API 价格、可配置推理与国内访问方式。"
   },
   "hero": {
-    "badge": "🚀 2025年AI领域王者",
-    "title": "Grok4 彻底杀疯了！<br>马斯克xAI旗舰模型震撼登场",
-    "subtitle": "投资30亿美元打造的AI旗舰，在LMSYS Arena盲测中全面超越OpenAI、Gemini等顶尖对手！",
+    "badge": "🚀 2026年7月官方模型更新",
+    "title": "Grok 4.5 已进入官方模型目录：代码、聊天与智能体任务统一升级",
+    "subtitle": "官方模型 ID 为 grok-4.5，提供 500K tokens 上下文、图文输入、可配置推理、函数调用与结构化输出。",
     "features": [
-      "🎯 Deepsearch革命性技术",
-      "🧠 突破性情感交互",
-      "⚡ 全网最快镜像站"
+      "🎯 500K tokens 上下文",
+      "🧠 可配置推理与工具调用",
+      "⚡ 输入 $2 / 输出 $6 每百万 tokens"
     ],
     "cta": {
       "primary": "🚀 立即体验",
@@ -18,18 +18,18 @@
     }
   },
   "experience": {
-    "title": "🌟 国内最稳定的Grok4访问方案",
+    "title": "🌟 Grok 4.5 国内访问与体验方案",
     "plans": {
       "premium": {
         "name": "💎 专业版",
         "price": "￥66",
         "period": "/月",
         "features": [
-          "✅ Grok4 完整功能",
+          "✅ Grok 4.5 与多模型入口",
           "✅ 国内直连，无需科学上网",
-          "✅ 无封号风险",
+          "✅ 实际模型以站内列表为准",
           "✅ 24小时稳定服务",
-          "✅ 保障聊天记录隐私"
+          "✅ 使用前核对隐私与数据条款"
         ],
         "button": "立即开始"
       },
@@ -38,18 +38,24 @@
         "price": "￥0.99",
         "period": "/天",
         "features": [
-          "✅ 基础Grok4访问",
+          "✅ 进入站点后核对实际模型",
           "✅ 按天付费，灵活使用",
-          "✅ 不兑换不失效",
-          "✅ 3小时内可用40次"
+          "✅ 未兑换套餐按站内规则处理",
+          "✅ 次数与时限以站内说明为准"
         ],
         "button": "免费试用"
       }
     }
   },
+  "dailyArticle": {
+    "title": "📰 Grok 4.5 官方状态",
+    "headline": "xAI 已公开列出 grok-4.5",
+    "summary": "截至 2026 年 7 月 11 日，xAI 官方模型目录将 Grok 4.5 标为最新旗舰模型，面向代码、聊天和智能体工具调用。",
+    "details": "官方列出的关键参数包括 500K tokens 上下文、文本与图片输入、文本输出、可配置推理、函数调用和结构化输出。Playground 当前仍标注为 coming soon。"
+  },
   "comparison": {
-    "title": "🏆 LMSYS Arena盲测：Grok4全面胜出",
-    "description": "在权威的LMSYS Arena盲测评估中，Grok4展现出惊人实力，在三大核心评测领域全面超越OpenAI、Gemini等顶尖对手",
+    "title": "📊 Grok 4.5 官方规格速览",
+    "description": "以下信息来自 xAI 官方模型目录。旧版榜单截图仍保留在 README 中，但不再将历史跑分直接套用到 Grok 4.5。",
     "table": {
       "model": "模型",
       "result": "表现",
@@ -57,73 +63,73 @@
     },
     "models": {
       "grok": {
-        "name": "Grok4",
-        "result": "擂主，全面胜出",
-        "description": "Deepsearch技术+独特个性，革新AI认知能力"
+        "name": "Grok 4.5",
+        "result": "官方最新旗舰",
+        "description": "模型 ID：grok-4.5；别名：grok-4.5-latest"
       },
       "openai": {
-        "name": "OpenAI GPT-4",
-        "result": "❌ 落败",
-        "description": "传统回避策略，缺乏真实判断"
+        "name": "上下文",
+        "result": "500K tokens",
+        "description": "超过 200K tokens 后进入长上下文价格档"
       },
       "gemini": {
-        "name": "Google Gemini",
-        "result": "❌ 落败",
-        "description": "功能限制较多，响应速度偏慢"
+        "name": "输入与输出",
+        "result": "图文输入 / 文本输出",
+        "description": "适合代码库、文档、截图与多轮任务"
       },
       "claude": {
-        "name": "Claude 4",
-        "result": "❌ 落败",
-        "description": "保守设计，缺乏突破性创新"
+        "name": "API 价格",
+        "result": "输入 $2 / 输出 $6",
+        "description": "每 1M tokens；长上下文与缓存另行计费"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Grok4 为什么如此强大",
+    "title": "🏆 Grok 4.5 的三个核心升级",
     "deepsearch": {
-      "title": "革命性Deepsearch技术",
-      "description": "彻底革新AI认知能力，确保信息源的真实性与可靠性，告别虚假信息困扰"
+      "title": "代码与通用任务旗舰",
+      "description": "xAI 将 Grok 4.5 定位为代码、聊天和其他通用任务的首选模型。"
     },
     "personality": {
-      "title": "突破性情感交互体验",
-      "description": "处理复杂伦理道德议题时展现独特个性，不再简单地将问题抛回用户，真实而富有洞察力"
+      "title": "原生智能体能力",
+      "description": "官方能力表包含函数调用、结构化输出和可配置推理，适合多步骤工作流。"
     },
     "performance": {
-      "title": "投资30亿美元打造",
-      "description": "马斯克xAI重金投入，构建业界最先进的AI架构，性能和稳定性均达到业界巅峰"
+      "title": "500K 图文上下文",
+      "description": "支持文本与图片输入，可处理长代码库、长文档和视觉理解任务。"
     }
   },
   "painPoints": {
-    "title": "⚠️ 官方Grok使用痛点",
-    "cost": "月费30美元（Grok Pro）",
-    "network": "需要Visa卡和科学上网",
-    "restrictions": "国内用户易被封号，体验欠佳"
+    "title": "⚠️ 使用 Grok 4.5 前要注意",
+    "cost": "超过 200K tokens 的长上下文价格更高",
+    "network": "官方 Playground 当前标注为 coming soon",
+    "restrictions": "第三方入口的实际模型与数据政策可能不同"
   },
   "solutions": {
-    "title": "💡 我们的优势",
+    "title": "💡 接入与选型建议",
     "price": {
-      "title": "💰 价格优势",
-      "description": "官网需要30美元/月（约210元人民币），我们只需66元/月"
+      "title": "💰 价格透明",
+      "description": "官方基础价为输入 $2、输出 $6 / 1M tokens"
     },
     "privacy": {
-      "title": "🔒 隐私保障",
-      "description": "聊天记录不丢失，授权码安全迁移"
+      "title": "🔒 先看隐私条款",
+      "description": "第三方服务的数据保留方式需单独确认"
     },
     "safety": {
-      "title": "🛡️ 无封号风险",
-      "description": "即使出现问题，我们承担所有责任"
+      "title": "🛡️ 使用官方模型 ID",
+      "description": "API 接入应使用 grok-4.5 或官方别名"
     },
     "original": {
-      "title": "🔄 官方原版镜像",
-      "description": "支持换号，3小时内可用40次"
+      "title": "🔄 控制长上下文",
+      "description": "结合缓存、摘要和分段减少不必要成本"
     },
     "flexible": {
-      "title": "📅 灵活付费",
-      "description": "按天付费，不兑换不失效，最低1天起"
+      "title": "📅 逐步验证",
+      "description": "先测试代码、工具调用和视觉任务再扩大用量"
     },
     "easy": {
-      "title": "🎯 使用简单",
-      "description": "无需Visa卡，无需科学上网，无IP封号担忧"
+      "title": "🎯 核对实际模型",
+      "description": "第三方页面名称不等于底层一定是 Grok 4.5"
     }
   },
   "faq": {
@@ -135,7 +141,7 @@
       },
       {
         "question": "支持哪些功能？",
-        "answer": "Grok4完整功能包括文本对话、Deepsearch、代码生成等"
+        "answer": "官方 API 支持图文输入、文本输出、函数调用、结构化输出与可配置推理。"
       },
       {
         "question": "如何获得技术支持？",
@@ -152,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 立即开启AI新时代",
-    "description": "Grok4 以革命性Deepsearch技术、独特个性和强大性能，无愧2025年AI界最强旗舰。",
-    "primary": "🚀 立即体验Grok4",
+    "description": "Grok 4.5 已进入 xAI 官方模型目录。体验第三方入口前，请先核对实际模型、价格与隐私条款。",
+    "primary": "🚀 体验 Grok 4.5",
     "secondary": "📚 备用访问地址"
   },
   "footer": {
-    "copyright": "© 2025 Grok4.Asia. 提供高品质AI会话服务。",
+    "copyright": "© 2026 Grok 4.5 Guide. 独立指南，非 xAI 官方页面。",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "contact": "联系我们"

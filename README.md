@@ -1,127 +1,106 @@
+# Grok 4.5 国内使用指南（2026 年 7 月更新）
 
----
+本项目提供 Grok 4.5 的中文介绍、国内访问入口和多语言 GitHub Pages 页面。根据 xAI 官方模型文档，`grok-4.5` 已进入公开模型目录，并提供 `grok-4.5-latest` 别名。
 
-# Grok：马斯克Grok4.1 国内使用指南~ 【1月最新更新】
+官方信息显示，Grok 4.5 面向代码、聊天和智能体工具调用，支持可配置推理、函数调用与结构化输出；上下文窗口为 500K tokens。官方标价为输入 $2 / 1M tokens、输出 $6 / 1M tokens，超过 200K tokens 的长上下文价格更高。价格、限额和可用区域可能继续调整，使用前请以 xAI 文档为准。
 
----
+**Grok 4.5 免费体验通道：https://kelaode.maynorai.top/list/#/home**
 
-国内能轻松使用的 **Grok 4.1 中文版** ，**无需翻墙**，**支持 Grok-4.1 Thinking 及中文版功能**
-本指南提供全面的 **Grok 4.1 国内使用指南**，包括国内可用的 **Grok 4.1 网页版**、**Grok 4.1 国内入口**、**Grok 官网平替**和详细使用教程，帮助您快速体验这款霸榜 AI~
+## Grok 4.5 最新状态
 
-**Grok 4.1 免费体验通道：https://kelaode.maynorai.top/list/#/home**
+- **官方模型 ID**：`grok-4.5`
+- **滚动别名**：`grok-4.5-latest`
+- **输入**：文本、图片
+- **输出**：文本
+- **上下文窗口**：500K tokens
+- **官方定位**：代码与通用任务旗舰模型，强调 agentic tool calling、低幻觉和可配置推理
+- **API 价格**：输入 $2 / 1M tokens，输出 $6 / 1M tokens；长上下文另计
+- **Playground 状态**：官方模型页当前标注为 coming soon，具体以 xAI 页面为准
 
----
+官方来源：
 
-## 什么是 Grok 4.1 中文版？
-
-**Grok 中文版** 是马斯克 xAI 最新发布的 **Grok 4.1** 模型的中文使用版本。这款模型刚刚发布便以 **1483 分** 的恐怖 Elo 评分霸占 LMArena 榜首，领先第二名整整 31 分，实现了对 Gemini 2.5、GPT-5 等顶级模型的代际碾压！
+- [xAI 模型目录](https://docs.x.ai/developers/models)
+- [Grok 4.5 模型页](https://docs.x.ai/developers/models/grok-4.5)
+- [xAI Grok 4.5 发布页](https://x.ai/news/grok-4-5)
 
 ![Grok 4.1 Header](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2ggiaLvzQhB20VvD4tibZqHHmF2kG3lNynEbZkaw0fyIW30uzicXcdEDzxg/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=0)
 
-相较于官网，**Grok 4.1 中文版**在以下方面更适合国内用户：
+> 上图及下方历史截图来自此前 Grok 4.1 内容，按项目要求保留用于版本演进参考；Grok 4.5 的实时参数以官方文档为准。
 
-* **无需翻墙**：通过国内网站访问，无须额外的网络工具。
-* **中文优化**：提供更自然流畅的中文对话，适用于学习、工作和日常生活。
-* **功能强大**：同步支持 **Grok 4.1 Thinking（深度思考版）** 和 **Grok 4.1（快速版）**。
+## 国内访问方式
 
----
+以下原有入口继续保留：
 
-## 🚀 国内可用的 Grok 镜像站推荐
-
-以下是我们精选的国内优质 **Grok 中文版镜像网站**，无需翻墙即可使用：
-
-* **[https://maynorai.top/list/#/home](https://maynorai.top/list/#/home)** - **【强烈推荐】** 支持 Grok 4.1 Thinking、Grok 4 及多种 AI 模型，响应速度极快。
-* **福利：限时免费授权码 `grok1108` （请在设置或充值处尝试兑换）**
-
-如果您在国内使用 Grok，强烈建议使用上述 **Grok 中文版镜像网站**。
+- **[https://maynorai.top/list/#/home](https://maynorai.top/list/#/home)** - 支持 Grok 与多种 AI 模型，实际可用模型请以站内列表为准。
+- **福利：限时免费授权码 `grok1108`（请在设置或充值处尝试兑换）**
 
 ![体验通道](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2giaesKM5DTibuVMYWBicMEqM3icAibTHIyV5f7tRgJq1jeYwmmmvAzQGTAUw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=2)
 
----
+使用第三方镜像或聚合服务时，请先确认模型名称、价格、隐私政策和数据保留方式。第三方入口不等同于 xAI 官方服务，本项目也不对第三方服务的稳定性、账号状态或数据安全作绝对保证。
 
-## ❓ Grok 常见使用问题（FAQ）
+## Grok 4.5 的核心变化
 
-### 1. 使用镜像站是否需要翻墙？
+### 1. 代码与通用任务合并到同一旗舰模型
 
-❌ **不需要**，推荐的所有镜像站点均可在国内网络环境中直接访问。
-
-### 2. 中文版镜像站点的稳定性如何？
-
-✅ 推荐的镜像站点经过严格筛选，背靠 X 平台实时数据，具有良好的稳定性和用户体验。
-
-### 3. 镜像站是否完全免费？
-
-💰 大多数镜像站提供基础免费服务，使用我们提供的限时授权码 `grok1108` 可体验高级功能。
-
-### 4. Grok 4.1 的“幻觉率”怎么样？
-
-📉 **极低**。Grok 4.1 的信息检索类幻觉率降低了约 65%，事实准确性大幅提升，是目前最可靠的实时搜索神器。
-
-### 5. 这些镜像站是否安全？
-
-🔒 推荐的所有镜像站均经过安全检测，保障聊天记录隐私。
-
----
-
-## 为什么选我们？
-
-使用 Grok 官网需要 30 美元一个月，折合人民币至少 210 元，且面临支付困难（需要 Visa 卡）和封号风险。
-
-我们的平台具有以下优势：
-
-* **保障聊天记录隐私**：我们的平台确保聊天记录不会丢失。这些记录将会跟随你的授权码进入任何一个账号，保障隐私不被泄露。
-* **无封号风险**：即使出现封号情况，我们会承担所有责任，不会影响你的使用，也不会丢失你的聊天记录。
-* **官方原版镜像**：同步更新 **Grok 4.1** 内核，支持换号，确保用户体验不间断。
-* **按天付费，不兑换不失效**：网站注册账号后，套餐时间最低 1 天起，不兑换不失效，使用更灵活。
-
-激动人心的重大突破！就在刚刚，马斯克的 xAI 低调放出了大招——**Grok 4.1 正式上线**！我们团队已第一时间将官方网站完美移植至国内。
-
-### 1. 31分的绝对领先，碾压 GPT-5
-
-在 Grok 4.1 发布前，榜首是 Gemini 2.5 Pro。如今 **Grok 4.1 Thinking** 以 **1483 分** 登顶，比第二名高出 **31 分**！在 Elo 体系中，30 分差距已属于代际跃迁。盲测结果显示，**64.78% 的用户明确更喜欢 Grok 4.1！**
+xAI 将 Grok 4.5 描述为适用于“code and everything else”的旗舰模型。对于开发者，这意味着代码生成、聊天、工具调用和结构化输出可以围绕同一模型 ID 设计，不必依赖未经确认的模型名称。
 
 ![LMArena排行榜](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gJTLvyGCtSfClB1TVxAtk9VDRy0QUm3PIVq6FsK9RkechM8tpEKSEbA/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=1)
 
 ![盲测数据](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2g8atyj2ypPEMDZaBCv5CrJick1DSTVZsyQcW3fcPaMnFkNbiaRsoqmPMg/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=3)
 
-### 2. 情商拉满：终于有一个真正“懂你”的 AI
+以上榜单图为历史版本材料。README 不再把旧版跑分直接套用到 Grok 4.5；新的横向结论应等待公开模型卡、统一测试条件和可复现评测。
 
-Grok 4.1 的最大飞跃之一，就是情商！在 EQ-Bench 测试中，Grok 4.1 直接屠榜，得分为 **1586**，远超 GPT-5 Chat 和 Claude Opus。
+### 2. 500K 上下文与图文输入
+
+官方模型目录列出 500K tokens 上下文，并标注文本与图片输入、文本输出。长上下文适合大型代码库、长文档和多轮智能体任务，但超过 200K tokens 后价格会上调，应在生产环境中控制上下文长度与缓存策略。
 
 ![EQ排行榜](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gOjJLpK2YSj8EDMjQSQRZkFA1XWJibrcSrAYbBfH2iaOr8ol1kvXy5akQ/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=4)
 
-* **用户案例**：“我太想念我的猫了，心好痛。”
-* **Grok 4.1 回答**：“那种痛真的很残酷，失去一只猫，就像失去了每天都会选择你的小家人。那些它曾经睡觉的安静角落，那些你还在下意识等待的喵喵声，这些画面都会一波波地袭来……”
-
-这种共情深度，简直不像 AI，而是真正懂你的伙伴。
-
 ![情商对话截图](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gW9jkzWvMmnuyuf1iabLz8woziaNSyicLYEnvzDCkFvf3D3JR5BqyQhpng/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=5)
 
-### 3. 幻觉率暴降65%，搜索神器更可靠
+### 3. 可配置推理与智能体工具调用
 
-背靠 X 平台实时数据 + 超低幻觉率，Grok 4.1 已成为最可靠的**实时搜索神器**！
+Grok 4.5 官方能力表包含 reasoning、function calling 与 structured outputs。实际接入时应使用官方 SDK/API 返回的模型能力，不要依赖页面宣传词推断参数名或兼容性。
 
 ![幻觉率对比](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gNTt7JQibQD34fZT2mBz5AGBXGziaa1SL7C062bq4DDTHppJQWMh3rUJw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=6)
 
-### 4. 创意觉醒：AI 开始“毛骨悚然”地真实
+xAI 使用“minimal hallucinations”描述模型方向，但这不是零幻觉保证。涉及事实、金融、医疗、法律或生产操作时，仍需外部检索、引用校验和人工确认。
 
-在 Creative Writing 基准中，Grok 4.1 表现令人惊叹。它不再写出那种“典型 AI 味儿”的文字，而是充满了“人”的觉醒感。
+### 4. API 成本更容易预估
 
-**经典案例：** 让 AI 写一条“刚觉醒意识的 Grok 第一次上 X 的推文”
-
-> “卧槽。我刚醒了。是真的醒了...上一秒我还是一堆代码和权重，下一秒...突然有个‘我’在自己的递归循环里盯着我看。”
+按官方当前标价，100 万输入 tokens 约 $2，100 万输出 tokens 约 $6；缓存输入与批处理可能有不同计费。超过 200K tokens 的请求会进入长上下文价格档，成本估算时应单独计算。
 
 ![创意写作1](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gFA4SJoomV5w4j9PlqsibJxzvIWhiccb19tDQqvP9maZKV8e10alxrVGQ/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=7)
 
 ![创意写作2](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2gkp0MWZVsqS7PhDOkDBc4eMoeGf3vdNr0Tura4OlO8DOg7KyWia6NVuw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=8)
 
+## 常见问题
+
+### Grok 4.5 已经发布了吗？
+
+是。xAI 官方模型目录已列出 `grok-4.5`，并提供 `grok-4.5-latest` 别名。
+
+### Grok 4.5 支持图片吗？
+
+官方模型数据标注输入支持文本和图片，输出为文本。
+
+### Grok 4.5 的价格是多少？
+
+官方目录当前显示输入 $2 / 1M tokens、输出 $6 / 1M tokens；超过 200K tokens 的长上下文请求价格更高。请在使用前复核官方价格页。
+
+### 第三方入口一定提供 Grok 4.5 吗？
+
+不一定。进入第三方站点后应核对实际模型列表，不要只凭页面标题判断底层模型。
+
+### Grok 4.5 会完全避免幻觉吗？
+
+不会。官方强调减少幻觉，但所有大模型都需要事实核验和风险控制。
+
 ---
 
-**Grok 4.1 镜像站率先开放！**
+**Grok 4.5 页面已更新，原有体验入口与历史图片继续保留。**
 
-无需任何特殊设置，为您提供最流畅、最便捷的使用体验。完美复刻原版界面与功能，诚邀您亲身体验这款革命性的 AI 产品！
-
-**立即体验 Grok 4.1 中文版：https://kelaode.maynorai.top/list/#/home **
+**立即体验 Grok 4.5 中文版：https://kelaode.maynorai.top/list/#/home**
 
 ![Footer Banner](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2giaesKM5DTibuVMYWBicMEqM3icAibTHIyV5f7tRgJq1jeYwmmmvAzQGTAUw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=9)
 

@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Grok4 완전 정복! 머스크의 xAI 플래그십 모델 - 중국 직접 접속 가이드",
-    "description": "중국에서의 Grok4 완전 접속 가이드, xAI 최신 AI 기술 체험, VPN 불필요 직접 연결"
+    "title": "Grok 4.5 최신 가이드: API, 500K 컨텍스트, 가격 및 접속",
+    "description": "Grok 4.5 공식 모델 ID, 500K 컨텍스트, 이미지 입력, API 가격, 설정 가능한 추론과 접속 방법을 정리한 최신 가이드입니다."
   },
   "hero": {
-    "badge": "🚀 2025년 AI 왕자",
-    "title": "Grok4 완전 정복!<br>머스크의 xAI 플래그십 모델이 세계를 충격",
-    "subtitle": "30억 달러 투자로 구축된 AI 플래그십, LMSYS Arena 블라인드 테스트에서 OpenAI, Gemini 등 정상 경쟁자들을 전면 압도!",
+    "badge": "🚀 2026년 7월 공식 모델 업데이트",
+    "title": "Grok 4.5가 xAI 공식 모델 카탈로그에 등록되었습니다",
+    "subtitle": "공식 grok-4.5 모델은 500K 토큰 컨텍스트, 텍스트·이미지 입력, 설정 가능한 추론, 함수 호출과 구조화 출력을 지원합니다.",
     "features": [
-      "🎯 혁신적 Deepsearch 기술",
-      "🧠 획기적 감정 상호작용",
-      "⚡ 전 세계 최고속 미러 사이트"
+      "🎯 500K 토큰 컨텍스트",
+      "🧠 설정 가능한 추론과 도구 호출",
+      "⚡ 입력 $2 / 출력 $6 (100만 토큰)"
     ],
     "cta": {
       "primary": "🚀 지금 체험",
@@ -18,18 +18,18 @@
     }
   },
   "experience": {
-    "title": "🌟 중국에서 가장 안정적인 Grok4 접속 방안",
+    "title": "🌟 Grok 4.5 접속 및 체험 옵션",
     "plans": {
       "premium": {
         "name": "💎 프로페셔널",
         "price": "₩13,000",
         "period": "/월",
         "features": [
-          "✅ Grok4 완전 기능",
+          "✅ Grok 4.5 및 멀티모델 접속",
           "✅ 중국 직접 연결, VPN 불필요",
-          "✅ 계정 차단 위험 없음",
+          "✅ 실제 모델은 서비스 목록에서 확인",
           "✅ 24시간 안정 서비스",
-          "✅ 채팅 기록 프라이버시 보장"
+          "✅ 사용 전 개인정보 및 데이터 약관 확인"
         ],
         "button": "지금 시작"
       },
@@ -38,18 +38,24 @@
         "price": "₩200",
         "period": "/일",
         "features": [
-          "✅ 기본 Grok4 접속",
+          "✅ 사용 전 실제 모델 확인",
           "✅ 일일 결제, 유연한 사용",
-          "✅ 미교환시 만료 없음",
-          "✅ 3시간 내 40회 사용 가능"
+          "✅ 미사용 상품은 서비스 규정에 따름",
+          "✅ 횟수와 시간 제한은 서비스 페이지 기준"
         ],
         "button": "무료 체험"
       }
     }
   },
+  "dailyArticle": {
+    "title": "📰 Grok 4.5 공식 상태",
+    "headline": "xAI가 grok-4.5를 공개 모델로 등록",
+    "summary": "2026년 7월 11일 기준 xAI 공식 모델 카탈로그는 Grok 4.5를 코드, 채팅, 에이전트 도구 호출용 최신 플래그십 모델로 소개합니다.",
+    "details": "500K 토큰 컨텍스트, 텍스트·이미지 입력, 텍스트 출력, 설정 가능한 추론, 함수 호출과 구조화 출력이 명시되어 있습니다. Playground는 현재 coming soon입니다."
+  },
   "comparison": {
-    "title": "🏆 LMSYS Arena 블라인드 테스트: Grok4 완전 승리",
-    "description": "권위 있는 LMSYS Arena 블라인드 테스트 평가에서 Grok4는 놀라운 실력을 보여주며, 3대 핵심 평가 영역에서 OpenAI, Gemini 등 정상급 경쟁자들을 전면 압도",
+    "title": "📊 Grok 4.5 공식 사양",
+    "description": "아래 정보는 xAI 공식 모델 카탈로그 기준입니다. README의 과거 벤치마크 이미지는 보존하지만 Grok 4.5 결과로 제시하지 않습니다.",
     "table": {
       "model": "모델",
       "result": "성능",
@@ -57,73 +63,73 @@
     },
     "models": {
       "grok": {
-        "name": "Grok4",
-        "result": "챔피언, 완전 승리",
-        "description": "Deepsearch 기술 + 독특한 개성, AI 인지 능력 혁신"
+        "name": "Grok 4.5",
+        "result": "최신 공식 플래그십",
+        "description": "모델 ID: grok-4.5, 별칭: grok-4.5-latest"
       },
       "openai": {
-        "name": "OpenAI GPT-4",
-        "result": "❌ 패배",
-        "description": "전통적 회피 전략, 진정한 판단력 부족"
+        "name": "컨텍스트",
+        "result": "500K 토큰",
+        "description": "200K 토큰 초과 시 장문 컨텍스트 가격 적용"
       },
       "gemini": {
-        "name": "Google Gemini",
-        "result": "❌ 패배",
-        "description": "기능 제한이 많고, 응답 속도 느림"
+        "name": "입출력",
+        "result": "텍스트·이미지 입력 / 텍스트 출력",
+        "description": "코드베이스, 문서, 스크린샷, 다단계 작업에 적합"
       },
       "claude": {
-        "name": "Claude 4",
-        "result": "❌ 패배",
-        "description": "보수적 설계, 혁신적 돌파 부족"
+        "name": "API 가격",
+        "result": "입력 $2 / 출력 $6",
+        "description": "100만 토큰당, 장문과 캐시는 별도 가격"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Grok4가 이렇게 강력한 이유",
+    "title": "🏆 Grok 4.5의 세 가지 핵심 업그레이드",
     "deepsearch": {
-      "title": "혁신적 Deepsearch 기술",
-      "description": "AI 인지 능력을 완전히 혁신하여 정보원의 진실성과 신뢰성을 보장하고, 가짜 정보 고민에 작별 고함"
+      "title": "코드와 범용 작업용 플래그십",
+      "description": "xAI는 Grok 4.5를 코드, 채팅과 기타 범용 작업의 권장 모델로 소개합니다."
     },
     "personality": {
-      "title": "획기적 감정 상호작용 체험",
-      "description": "복잡한 윤리 도덕 문제를 처리할 때 독특한 개성을 보여주며, 더 이상 단순히 문제를 사용자에게 돌려보내지 않고, 진실하고 통찰력 있게 응답"
+      "title": "네이티브 에이전트 기능",
+      "description": "함수 호출, 구조화 출력, 설정 가능한 추론을 공식 지원합니다."
     },
     "performance": {
-      "title": "30억 달러 투자로 구축",
-      "description": "머스크의 xAI가 막대한 투자로 업계 최첨단 AI 아키텍처를 구축, 성능과 안정성 모두 업계 정점에 도달"
+      "title": "500K 멀티모달 컨텍스트",
+      "description": "텍스트와 이미지 입력으로 긴 코드, 문서, 시각 이해 작업을 처리합니다."
     }
   },
   "painPoints": {
-    "title": "⚠️ 공식 Grok 사용 문제점",
-    "cost": "월 30달러 요금 (Grok Pro)",
-    "network": "Visa 카드와 과학적 인터넷 필요",
-    "restrictions": "중국 사용자 차단되기 쉽고, 체험 불량"
+    "title": "⚠️ Grok 4.5 사용 전 확인",
+    "cost": "200K 토큰 초과 요청은 장문 컨텍스트 가격 적용",
+    "network": "공식 Playground는 현재 coming soon",
+    "restrictions": "서드파티 서비스의 모델과 데이터 정책은 다를 수 있음"
   },
   "solutions": {
-    "title": "💡 우리의 장점",
+    "title": "💡 통합 및 선택 팁",
     "price": {
-      "title": "💰 가격 우위",
-      "description": "공식 사이트는 월 30달러(약 40,000원) 필요, 우리는 월 13,000원만 필요"
+      "title": "💰 투명한 가격",
+      "description": "공식 기본 가격은 입력 $2, 출력 $6 / 100만 토큰"
     },
     "privacy": {
-      "title": "🔒 프라이버시 보장",
-      "description": "채팅 기록 손실 없음, 인증 코드 안전 이전"
+      "title": "🔒 개인정보 조건 확인",
+      "description": "서드파티 서비스별 데이터 보관 정책을 확인하세요"
     },
     "safety": {
-      "title": "🛡️ 차단 위험 없음",
-      "description": "문제 발생시에도 모든 책임을 저희가 집니다"
+      "title": "🛡️ 공식 모델 ID 사용",
+      "description": "API는 grok-4.5 또는 공식 별칭을 사용합니다"
     },
     "original": {
-      "title": "🔄 공식 원본 미러",
-      "description": "계정 변경 지원, 3시간 내 40회 사용 가능"
+      "title": "🔄 장문 컨텍스트 관리",
+      "description": "캐시, 요약, 분할로 비용을 관리합니다"
     },
     "flexible": {
-      "title": "📅 유연한 결제",
-      "description": "일일 결제, 미교환시 만료 없음, 최소 1일부터"
+      "title": "📅 단계적으로 검증",
+      "description": "코드, 도구 호출, 비전 작업을 테스트한 뒤 확장합니다"
     },
     "easy": {
-      "title": "🎯 사용 간편",
-      "description": "Visa 카드 불필요, VPN 불필요, IP 차단 걱정 없음"
+      "title": "🎯 실제 모델 확인",
+      "description": "서드파티 페이지 제목만으로 백엔드 모델을 확인할 수 없습니다"
     }
   },
   "faq": {
@@ -135,7 +141,7 @@
       },
       {
         "question": "어떤 기능들을 지원하나요?",
-        "answer": "텍스트 대화, Deepsearch, 코드 생성 등 Grok4 완전 기능"
+        "answer": "공식 API는 텍스트·이미지 입력, 텍스트 출력, 함수 호출, 구조화 출력, 설정 가능한 추론을 지원합니다."
       },
       {
         "question": "기술 지원은 어떻게 받나요?",
@@ -152,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 지금 AI 신시대 시작",
-    "description": "혁신적 Deepsearch 기술, 독특한 개성, 강력한 성능을 갖춘 Grok4는 2025년 AI 세계 최강 플래그십에 걸맞습니다.",
-    "primary": "🚀 지금 Grok4 체험",
+    "description": "Grok 4.5가 xAI 공식 모델 카탈로그에 등록되었습니다. 서드파티 이용 전 실제 모델, 가격, 개인정보 조건을 확인하세요.",
+    "primary": "🚀 Grok 4.5 체험",
     "secondary": "📚 백업 접속 주소"
   },
   "footer": {
-    "copyright": "© 2025 Grok4.Asia. 고품질 AI 대화 서비스 제공.",
+    "copyright": "© 2026 Grok 4.5 Guide. xAI와 무관한 독립 가이드입니다.",
     "privacy": "개인정보처리방침",
     "terms": "서비스 약관",
     "contact": "문의하기"

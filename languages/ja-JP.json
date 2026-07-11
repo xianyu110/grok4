@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Grok4が完全制覇！マスクのxAI旗艦モデル - 中国直接アクセスガイド",
-    "description": "中国でのGrok4完全アクセスガイド、xAIの最新AI技術を体験、VPN不要で直接接続"
+    "title": "Grok 4.5 最新ガイド：API、500Kコンテキスト、料金とアクセス",
+    "description": "Grok 4.5の公式モデルID、500Kコンテキスト、画像入力、API料金、設定可能な推論、アクセス方法をまとめた最新ガイド。"
   },
   "hero": {
-    "badge": "🚀 2025年AI王者",
-    "title": "Grok4が完全制覇！<br>マスクのxAI旗艦モデルが世界を震撼",
-    "subtitle": "30億ドル投資で構築されたAI旗艦、LMSYS ArenaブラインドテストでOpenAI、Geminiなど頂点競合を全面的に超越！",
+    "badge": "🚀 2026年7月 公式モデル更新",
+    "title": "Grok 4.5がxAI公式モデル一覧に登場",
+    "subtitle": "公式のgrok-4.5は、500Kトークンのコンテキスト、テキストと画像入力、設定可能な推論、関数呼び出し、構造化出力に対応します。",
     "features": [
-      "🎯 革命的Deepsearch技術",
-      "🧠 画期的感情インタラクション",
-      "⚡ 世界最速ミラーサイト"
+      "🎯 500Kトークンのコンテキスト",
+      "🧠 設定可能な推論とツール呼び出し",
+      "⚡ 入力$2 / 出力$6（100万トークン）"
     ],
     "cta": {
       "primary": "🚀 今すぐ体験",
@@ -18,18 +18,18 @@
     }
   },
   "experience": {
-    "title": "🌟 中国で最も安定したGrok4アクセス方案",
+    "title": "🌟 Grok 4.5のアクセスと体験オプション",
     "plans": {
       "premium": {
         "name": "💎 プロフェッショナル版",
         "price": "¥1,500",
         "period": "/月",
         "features": [
-          "✅ Grok4完全機能",
+          "✅ Grok 4.5と複数モデルへのアクセス",
           "✅ 中国直接接続、VPN不要",
-          "✅ アカウント停止リスクなし",
+          "✅ 実際のモデルはサービス一覧で確認",
           "✅ 24時間安定サービス",
-          "✅ チャット履歴プライバシー保護"
+          "✅ 利用前にプライバシー条件を確認"
         ],
         "button": "今すぐ開始"
       },
@@ -38,18 +38,24 @@
         "price": "¥20",
         "period": "/日",
         "features": [
-          "✅ 基本Grok4アクセス",
+          "✅ 利用前に実際のモデルを確認",
           "✅ 日割り課金、柔軟使用",
-          "✅ 未交換なら期限なし",
-          "✅ 3時間内40回使用可能"
+          "✅ 未使用プランはサービス規則に従う",
+          "✅ 回数と時間制限はサービスページで確認"
         ],
         "button": "無料試用"
       }
     }
   },
+  "dailyArticle": {
+    "title": "📰 Grok 4.5 公式ステータス",
+    "headline": "xAIがgrok-4.5を公開モデル一覧に追加",
+    "summary": "2026年7月11日時点で、xAI公式モデル一覧はGrok 4.5をコード、チャット、エージェント型ツール呼び出し向けの最新旗艦モデルとして掲載しています。",
+    "details": "500Kトークンのコンテキスト、テキストと画像入力、テキスト出力、設定可能な推論、関数呼び出し、構造化出力が記載されています。Playgroundは現在coming soonです。"
+  },
   "comparison": {
-    "title": "🏆 LMSYS Arenaブラインドテスト：Grok4完全勝利",
-    "description": "権威あるLMSYS Arenaブラインドテスト評価で、Grok4は驚異的な実力を示し、3つの核心評価領域でOpenAI、Geminiなど頂点競合を全面的に超越",
+    "title": "📊 Grok 4.5 公式仕様",
+    "description": "以下はxAI公式モデル一覧に基づく情報です。READMEの過去ベンチマーク画像は保持していますが、Grok 4.5の結果としては扱いません。",
     "table": {
       "model": "モデル",
       "result": "パフォーマンス",
@@ -57,73 +63,73 @@
     },
     "models": {
       "grok": {
-        "name": "Grok4",
-        "result": "チャンピオン、完全勝利",
-        "description": "Deepsearch技術+独特な個性、AI認知能力を革新"
+        "name": "Grok 4.5",
+        "result": "公式最新旗艦",
+        "description": "モデルID：grok-4.5、別名：grok-4.5-latest"
       },
       "openai": {
-        "name": "OpenAI GPT-4",
-        "result": "❌ 敗北",
-        "description": "従来の回避戦略、真の判断力不足"
+        "name": "コンテキスト",
+        "result": "500Kトークン",
+        "description": "200Kトークン超は長文コンテキスト料金"
       },
       "gemini": {
-        "name": "Google Gemini",
-        "result": "❌ 敗北",
-        "description": "機能制限が多い、応答速度が遅い"
+        "name": "入出力",
+        "result": "テキスト・画像入力 / テキスト出力",
+        "description": "コード、文書、スクリーンショット、複数ステップのタスク向け"
       },
       "claude": {
-        "name": "Claude 4",
-        "result": "❌ 敗北",
-        "description": "保守的設計、画期的革新不足"
+        "name": "API料金",
+        "result": "入力$2 / 出力$6",
+        "description": "100万トークンあたり。長文とキャッシュは別料金"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Grok4がなぜこれほど強力なのか",
+    "title": "🏆 Grok 4.5の3つの中核アップグレード",
     "deepsearch": {
-      "title": "革命的Deepsearch技術",
-      "description": "AI認知能力を完全に革新し、情報源の真実性と信頼性を確保し、偽情報の悩みに別れを告げる"
+      "title": "コードと汎用タスクの旗艦",
+      "description": "xAIはGrok 4.5をコード、チャット、その他の汎用ワークロード向けの推奨モデルとしています。"
     },
     "personality": {
-      "title": "画期的感情インタラクション体験",
-      "description": "複雑な倫理道徳問題を処理する際に独特な個性を示し、もはや単純に問題をユーザーに投げ返さず、真実で洞察力に富む"
+      "title": "ネイティブなエージェント機能",
+      "description": "関数呼び出し、構造化出力、設定可能な推論を公式にサポートします。"
     },
     "performance": {
-      "title": "30億ドル投資で構築",
-      "description": "マスクのxAIが巨額投資で業界最先端のAIアーキテクチャを構築、性能と安定性の両方が業界頂点に到達"
+      "title": "500Kのマルチモーダルコンテキスト",
+      "description": "テキストと画像入力で、長いコードベース、文書、画像理解タスクに対応します。"
     }
   },
   "painPoints": {
-    "title": "⚠️ 公式Grok使用の痛点",
-    "cost": "月額30ドル（Grok Pro）",
-    "network": "Visaカードとインターネット回線が必要",
-    "restrictions": "中国ユーザーは停止されやすく、体験が良くない"
+    "title": "⚠️ Grok 4.5利用前の注意",
+    "cost": "200Kトークン超は長文コンテキスト料金が適用",
+    "network": "公式Playgroundは現在coming soon",
+    "restrictions": "第三者サービスではモデルとデータ方針が異なる場合があります"
   },
   "solutions": {
-    "title": "💡 私たちの優位性",
+    "title": "💡 導入と選定のポイント",
     "price": {
-      "title": "💰 価格優位性",
-      "description": "公式サイトは月額30ドル（約4500円）が必要、私たちは月額1500円のみ"
+      "title": "💰 明確な料金",
+      "description": "公式基本料金は入力$2、出力$6 / 100万トークン"
     },
     "privacy": {
-      "title": "🔒 プライバシー保護",
-      "description": "チャット記録が失われず、認証コードの安全な移行"
+      "title": "🔒 プライバシー条件を確認",
+      "description": "第三者サービスごとにデータ保持方針を確認してください"
     },
     "safety": {
-      "title": "🛡️ 停止リスクなし",
-      "description": "問題が発生しても、私たちがすべての責任を負います"
+      "title": "🛡️ 公式モデルIDを使用",
+      "description": "APIではgrok-4.5または公式別名を使用します"
     },
     "original": {
-      "title": "🔄 公式オリジナルミラー",
-      "description": "アカウント切り替えサポート、3時間内に40回使用可能"
+      "title": "🔄 長文コンテキストを管理",
+      "description": "キャッシュ、要約、分割でコストを抑えます"
     },
     "flexible": {
-      "title": "📅 柔軟な支払い",
-      "description": "日割り支払い、未交換なら期限なし、最短1日から"
+      "title": "📅 段階的に検証",
+      "description": "コード、ツール、画像タスクを試してから利用を拡大します"
     },
     "easy": {
-      "title": "🎯 使いやすい",
-      "description": "Visaカード不要、VPN不要、IP停止の心配なし"
+      "title": "🎯 実際のモデルを確認",
+      "description": "第三者ページ名だけでは基盤モデルを証明できません"
     }
   },
   "faq": {
@@ -135,7 +141,7 @@
       },
       {
         "question": "どんな機能がサポートされていますか？",
-        "answer": "テキスト対話、Deepsearch、コード生成などGrok4の完全機能"
+        "answer": "公式APIはテキストと画像入力、テキスト出力、関数呼び出し、構造化出力、設定可能な推論に対応します。"
       },
       {
         "question": "技術サポートはどのように受けられますか？",
@@ -152,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 今すぐAI新時代を開始",
-    "description": "革命的Deepsearch技術、独特な個性、強力な性能を持つGrok4は、2025年AI界最強の旗艦に値する。",
-    "primary": "🚀 今すぐGrok4を体験",
+    "description": "Grok 4.5はxAI公式モデル一覧に追加されました。第三者サービスでは実際のモデル、料金、プライバシー条件を確認してください。",
+    "primary": "🚀 Grok 4.5を体験",
     "secondary": "📚 バックアップアクセスアドレス"
   },
   "footer": {
-    "copyright": "© 2025 Grok4.Asia. 高品質AI会話サービスを提供。",
+    "copyright": "© 2026 Grok 4.5 Guide. xAI非公式の独立ガイドです。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "contact": "お問い合わせ"
