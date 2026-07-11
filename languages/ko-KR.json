@@ -13,7 +13,7 @@
       "⚡ 입력 $2 / 출력 $6 (100만 토큰)"
     ],
     "cta": {
-      "primary": "🚀 지금 체험",
+      "primary": "TryGrokAI 체험",
       "secondary": "📊 비교 보기"
     }
   },
@@ -159,7 +159,7 @@
   "finalCta": {
     "title": "🎯 지금 AI 신시대 시작",
     "description": "Grok 4.5가 xAI 공식 모델 카탈로그에 등록되었습니다. 서드파티 이용 전 실제 모델, 가격, 개인정보 조건을 확인하세요.",
-    "primary": "🚀 Grok 4.5 체험",
+    "primary": "TryGrokAI 체험",
     "secondary": "📚 백업 접속 주소"
   },
   "footer": {

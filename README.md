@@ -31,6 +31,7 @@
 
 以下原有入口继续保留：
 
+- **[https://trygrokai.asia/](https://trygrokai.asia/)** - 新增 Grok 体验入口，进入后请核对实际可用模型与服务条款。
 - **[https://maynorai.top/list/#/home](https://maynorai.top/list/#/home)** - 支持 Grok 与多种 AI 模型，实际可用模型请以站内列表为准。
 - **福利：限时免费授权码 `grok1108`（请在设置或充值处尝试兑换）**
 
