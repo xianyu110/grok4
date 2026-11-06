@@ -6,6 +6,8 @@
 
 **Grok 4.7 免费体验通道：https://kelaode.maynorai.top/list/#/home**
 
+**「Grok 充值 / 商品页」：[https://chongzhi.chatgpt-plus.top/grok/](https://chongzhi.chatgpt-plus.top/grok/)**（第三方商品/充值入口，≠ xAI 官方）
+
 ## Grok 4.7 最新状态
 
 - **官方模型 ID**：`grok-4.7`
@@ -39,6 +41,7 @@
 - **[https://kelaode.maynorai.top/list/#/home](https://kelaode.maynorai.top/list/#/home)** - Grok 4.7 免费体验主入口，进入后请核对实际可用模型与服务条款。
 - **[https://trygrokai.asia/](https://trygrokai.asia/)** - Grok 体验入口，进入后请核对实际可用模型与服务条款。
 - **[https://trygpt.asia/list/#/home](https://trygpt.asia/list/#/home)** - 支持 Grok 与多种 AI 模型，实际可用模型请以站内列表为准。
+- **[「Grok 充值 / 商品页」](https://chongzhi.chatgpt-plus.top/grok/)** - 商品/充值入口（第三方 ≠ xAI 官方；进入后请自行核对商品与服务条款）。
 - **福利：限时免费授权码 `grok1108`（请在设置或充值处尝试兑换）**
 
 ![体验通道](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2giaesKM5DTibuVMYWBicMEqM3icAibTHIyV5f7tRgJq1jeYwmmmvAzQGTAUw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=2)
@@ -112,6 +115,8 @@ Grok 4.7 支持 reasoning effort：`low` / `medium` / `high`（默认） / `xhig
 **Grok 4.7 页面已更新，原有体验入口与历史图片继续保留。**
 
 **立即体验 Grok 4.7 中文版：https://kelaode.maynorai.top/list/#/home**
+
+**Grok 充值 / 商品页：https://chongzhi.chatgpt-plus.top/grok/**（第三方 ≠ 官方 xAI）
 
 ![Footer Banner](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibROdQAHQbvk5WQlic3wn2tD2giaesKM5DTibuVMYWBicMEqM3icAibTHIyV5f7tRgJq1jeYwmmmvAzQGTAUw/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=9)
 

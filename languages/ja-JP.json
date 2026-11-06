@@ -14,7 +14,8 @@
     ],
     "cta": {
       "primary": "TryGrokAIを試す",
-      "secondary": "📊 比較を見る"
+      "secondary": "📊 比較を見る",
+      "recharge": "Grok チャージ / 商品ページ"
     }
   },
   "experience": {
@@ -45,7 +46,10 @@
         ],
         "button": "無料試用"
       }
-    }
+    },
+    "recharge": "Grok チャージ / 商品ページ",
+    "rechargeNote": "（サードパーティの商品/チャージ入口。xAI公式ではありません）",
+    "rechargeUrl": "https://chongzhi.chatgpt-plus.top/grok/"
   },
   "dailyArticle": {
     "title": "📰 Grok 4.7 公式ステータス",
@@ -154,13 +158,15 @@
     "description": "ご質問があれば、いつでもお気軽にお問い合わせください：",
     "wechat": "WeChat: coder-maynor",
     "github": "GitHub: @chinamanor",
-    "store": "公式体験サイト"
+    "store": "公式体験サイト",
+    "recharge": "Grok チャージ / 商品ページ"
   },
   "finalCta": {
     "title": "🎯 今すぐAI新時代を開始",
     "description": "Grok 4.7はxAI公式モデル一覧に追加されました。第三者サービスでは実際のモデル、料金、プライバシー条件を確認してください。",
     "primary": "TryGrokAIを試す",
-    "secondary": "📚 バックアップアクセスアドレス"
+    "secondary": "📚 バックアップアクセスアドレス",
+    "recharge": "Grok チャージ / 商品ページ"
   },
   "footer": {
     "copyright": "© 2026 Grok 4.7 Guide. xAI非公式の独立ガイドです。",

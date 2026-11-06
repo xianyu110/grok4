@@ -14,7 +14,8 @@
     ],
     "cta": {
       "primary": "TryGrokAI 체험",
-      "secondary": "📊 비교 보기"
+      "secondary": "📊 비교 보기",
+      "recharge": "Grok 충전 / 상품 페이지"
     }
   },
   "experience": {
@@ -45,7 +46,10 @@
         ],
         "button": "무료 체험"
       }
-    }
+    },
+    "recharge": "Grok 충전 / 상품 페이지",
+    "rechargeNote": "(서드파티 상품/충전 입구 · xAI 공식 아님)",
+    "rechargeUrl": "https://chongzhi.chatgpt-plus.top/grok/"
   },
   "dailyArticle": {
     "title": "📰 Grok 4.7 공식 상태",
@@ -154,13 +158,15 @@
     "description": "궁금한 점이 있으시면 언제든지 문의하세요:",
     "wechat": "WeChat: coder-maynor",
     "github": "GitHub: @chinamanor",
-    "store": "공식 체험 사이트"
+    "store": "공식 체험 사이트",
+    "recharge": "Grok 충전 / 상품 페이지"
   },
   "finalCta": {
     "title": "🎯 지금 AI 신시대 시작",
     "description": "Grok 4.7이 xAI 공식 모델 카탈로그에 등록되었습니다. 서드파티 이용 전 실제 모델, 가격, 개인정보 조건을 확인하세요.",
     "primary": "TryGrokAI 체험",
-    "secondary": "📚 백업 접속 주소"
+    "secondary": "📚 백업 접속 주소",
+    "recharge": "Grok 충전 / 상품 페이지"
   },
   "footer": {
     "copyright": "© 2026 Grok 4.7 Guide. xAI와 무관한 독립 가이드입니다.",

@@ -14,7 +14,8 @@
     ],
     "cta": {
       "primary": "Open TryGrokAI",
-      "secondary": "📊 View Comparison"
+      "secondary": "📊 View Comparison",
+      "recharge": "Grok recharge / product page"
     }
   },
   "experience": {
@@ -45,7 +46,10 @@
         ],
         "button": "Free Trial"
       }
-    }
+    },
+    "recharge": "Grok recharge / product page",
+    "rechargeNote": "(Third-party product/recharge entry; not official xAI)",
+    "rechargeUrl": "https://chongzhi.chatgpt-plus.top/grok/"
   },
   "dailyArticle": {
     "title": "📰 Official Grok 4.7 status",
@@ -154,13 +158,15 @@
     "description": "For any questions, feel free to contact us anytime:",
     "wechat": "WeChat: coder-maynor",
     "github": "GitHub: @chinamanor",
-    "store": "Official Experience Site"
+    "store": "Official Experience Site",
+    "recharge": "Grok recharge / product page"
   },
   "finalCta": {
     "title": "🎯 Start the AI New Era Now",
     "description": "Grok 4.7 is now in the official xAI model catalog. Verify the actual model, pricing, and privacy terms before using a third-party service.",
     "primary": "Open TryGrokAI",
-    "secondary": "📚 Backup Access Address"
+    "secondary": "📚 Backup Access Address",
+    "recharge": "Grok recharge / product page"
   },
   "footer": {
     "copyright": "© 2026 Grok 4.7 Guide. Independent and not affiliated with xAI.",

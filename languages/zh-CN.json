@@ -14,7 +14,8 @@
     ],
     "cta": {
       "primary": "体验 TryGrokAI",
-      "secondary": "📊 查看对比"
+      "secondary": "📊 查看对比",
+      "recharge": "Grok 充值"
     }
   },
   "experience": {
@@ -45,7 +46,10 @@
         ],
         "button": "免费试用"
       }
-    }
+    },
+    "recharge": "「Grok 充值 / 商品页」",
+    "rechargeNote": "（第三方商品/充值入口，≠ xAI 官方）",
+    "rechargeUrl": "https://chongzhi.chatgpt-plus.top/grok/"
   },
   "dailyArticle": {
     "title": "📰 Grok 4.7 官方状态",
@@ -154,13 +158,15 @@
     "description": "如有任何问题，欢迎随时联系：",
     "wechat": "微信：coder-maynor",
     "github": "GitHub：@chinamanor",
-    "store": "官方体验站"
+    "store": "官方体验站",
+    "recharge": "Grok 充值 / 商品页"
   },
   "finalCta": {
     "title": "🎯 立即开启AI新时代",
     "description": "Grok 4.7 已进入 xAI 官方模型目录。体验第三方入口前，请先核对实际模型、价格与隐私条款。",
     "primary": "体验 TryGrokAI",
-    "secondary": "📚 备用访问地址"
+    "secondary": "📚 备用访问地址",
+    "recharge": "Grok 充值"
   },
   "footer": {
     "copyright": "© 2026 Grok 4.7 Guide. 独立指南，非 xAI 官方页面。",
