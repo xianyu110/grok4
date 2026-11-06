@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Grok 4.5 최신 가이드: API, 500K 컨텍스트, 가격 및 접속",
-    "description": "Grok 4.5 공식 모델 ID, 500K 컨텍스트, 이미지 입력, API 가격, 설정 가능한 추론과 접속 방법을 정리한 최신 가이드입니다."
+    "title": "Grok 4.7 최신 가이드: API, 500K 컨텍스트, 가격 및 접속",
+    "description": "Grok 4.7 공식 모델 ID grok-4.7, 500K 컨텍스트, 이미지 입력, 추론 강도, API 가격과 접속 방법을 정리한 최신 가이드입니다."
   },
   "hero": {
-    "badge": "🚀 2026년 7월 공식 모델 업데이트",
-    "title": "Grok 4.5가 xAI 공식 모델 카탈로그에 등록되었습니다",
-    "subtitle": "공식 grok-4.5 모델은 500K 토큰 컨텍스트, 텍스트·이미지 입력, 설정 가능한 추론, 함수 호출과 구조화 출력을 지원합니다.",
+    "badge": "🚀 공식 모델 업데이트 · 2026년 11월",
+    "title": "Grok 4.7이 xAI 공식 최신 플래그십으로 등록되었습니다",
+    "subtitle": "공식 grok-4.7 모델은 500K 토큰 컨텍스트, 텍스트·이미지 입력, 추론 강도 low/medium/high(기본)/xhigh, 함수 호출, 웹/X 검색, 코드 실행을 지원합니다.",
     "features": [
-      "🎯 500K 토큰 컨텍스트",
-      "🧠 설정 가능한 추론과 도구 호출",
-      "⚡ 입력 $2 / 출력 $6 (100만 토큰)"
+      "🎯 500K 컨텍스트 · 지식 컷오프 May 2026",
+      "🧠 추론 강도 low → xhigh (기본 high)",
+      "⚡ <200k: 입력 $2 / 캐시 $0.50 / 출력 $6"
     ],
     "cta": {
       "primary": "TryGrokAI 체험",
@@ -18,14 +18,14 @@
     }
   },
   "experience": {
-    "title": "🌟 Grok 4.5 접속 및 체험 옵션",
+    "title": "🌟 Grok 4.7 접속 및 체험 옵션",
     "plans": {
       "premium": {
         "name": "💎 프로페셔널",
         "price": "₩13,000",
         "period": "/월",
         "features": [
-          "✅ Grok 4.5 및 멀티모델 접속",
+          "✅ Grok 4.7 및 멀티모델 접속",
           "✅ 중국 직접 연결, VPN 불필요",
           "✅ 실제 모델은 서비스 목록에서 확인",
           "✅ 24시간 안정 서비스",
@@ -48,14 +48,14 @@
     }
   },
   "dailyArticle": {
-    "title": "📰 Grok 4.5 공식 상태",
-    "headline": "xAI가 grok-4.5를 공개 모델로 등록",
-    "summary": "2026년 7월 11일 기준 xAI 공식 모델 카탈로그는 Grok 4.5를 코드, 채팅, 에이전트 도구 호출용 최신 플래그십 모델로 소개합니다.",
-    "details": "500K 토큰 컨텍스트, 텍스트·이미지 입력, 텍스트 출력, 설정 가능한 추론, 함수 호출과 구조화 출력이 명시되어 있습니다. Playground는 현재 coming soon입니다."
+    "title": "📰 Grok 4.7 공식 상태",
+    "headline": "xAI가 grok-4.7을 공개 모델로 등록",
+    "summary": "2026년 11월 기준 xAI 공식 모델 카탈로그는 Grok 4.7을 코딩, 에이전트 작업, 지식 업무용 최신 플래그십으로 소개합니다(발표 약 2026-09-21).",
+    "details": "500K 토큰 컨텍스트, 지식 컷오프 May 2026, 텍스트·이미지 입력, 텍스트 출력(상한 없음), 추론 강도 low/medium/high(기본)/xhigh, 함수 호출, 웹/X 검색, 코드 실행. 벤치마크 수치는 공식 발표를 기준으로 하세요."
   },
   "comparison": {
-    "title": "📊 Grok 4.5 공식 사양",
-    "description": "아래 정보는 xAI 공식 모델 카탈로그 기준입니다. README의 과거 벤치마크 이미지는 보존하지만 Grok 4.5 결과로 제시하지 않습니다.",
+    "title": "📊 Grok 4.7 공식 사양",
+    "description": "아래 정보는 xAI 공식 모델 카탈로그 기준입니다. README의 과거 벤치마크 이미지는 보존하지만 Grok 4.7 결과로 제시하지 않습니다. 점수는 공식 문서를 우선하세요.",
     "table": {
       "model": "모델",
       "result": "성능",
@@ -63,9 +63,9 @@
     },
     "models": {
       "grok": {
-        "name": "Grok 4.5",
+        "name": "Grok 4.7",
         "result": "최신 공식 플래그십",
-        "description": "모델 ID: grok-4.5, 별칭: grok-4.5-latest"
+        "description": "모델 ID: grok-4.7, 지식 컷오프: May 2026"
       },
       "openai": {
         "name": "컨텍스트",
@@ -79,20 +79,20 @@
       },
       "claude": {
         "name": "API 가격",
-        "result": "입력 $2 / 출력 $6",
-        "description": "100만 토큰당, 장문과 캐시는 별도 가격"
+        "result": "입력 $2 / 캐시 $0.50 / 출력 $6",
+        "description": "1M 토큰당(<200k); ≥200k는 $4 / $1 / $12"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Grok 4.5의 세 가지 핵심 업그레이드",
+    "title": "🏆 Grok 4.7의 세 가지 핵심 업그레이드",
     "deepsearch": {
       "title": "코드와 범용 작업용 플래그십",
-      "description": "xAI는 Grok 4.5를 코드, 채팅과 기타 범용 작업의 권장 모델로 소개합니다."
+      "description": "xAI는 Grok 4.7을 코딩, 에이전트, 지식 업무용 플래그십(code and everything else)으로 소개합니다."
     },
     "personality": {
       "title": "네이티브 에이전트 기능",
-      "description": "함수 호출, 구조화 출력, 설정 가능한 추론을 공식 지원합니다."
+      "description": "함수 호출, 웹/X 검색, 코드 실행, 설정 가능한 추론(기본 high)을 포함합니다."
     },
     "performance": {
       "title": "500K 멀티모달 컨텍스트",
@@ -100,16 +100,16 @@
     }
   },
   "painPoints": {
-    "title": "⚠️ Grok 4.5 사용 전 확인",
+    "title": "⚠️ Grok 4.7 사용 전 확인",
     "cost": "200K 토큰 초과 요청은 장문 컨텍스트 가격 적용",
-    "network": "공식 Playground는 현재 coming soon",
+    "network": "Fast 변형은 Cursor / Grok Build 전용이며 공개 xAI API에는 없습니다",
     "restrictions": "서드파티 서비스의 모델과 데이터 정책은 다를 수 있음"
   },
   "solutions": {
     "title": "💡 통합 및 선택 팁",
     "price": {
       "title": "💰 투명한 가격",
-      "description": "공식 기본 가격은 입력 $2, 출력 $6 / 100만 토큰"
+      "description": "표준 <200k: 입력 $2, 캐시 $0.50, 출력 $6 / 1M 토큰"
     },
     "privacy": {
       "title": "🔒 개인정보 조건 확인",
@@ -117,7 +117,7 @@
     },
     "safety": {
       "title": "🛡️ 공식 모델 ID 사용",
-      "description": "API는 grok-4.5 또는 공식 별칭을 사용합니다"
+      "description": "API는 grok-4.7을 사용합니다(공식 카탈로그에서 확인)"
     },
     "original": {
       "title": "🔄 장문 컨텍스트 관리",
@@ -129,7 +129,7 @@
     },
     "easy": {
       "title": "🎯 실제 모델 확인",
-      "description": "서드파티 페이지 제목만으로 백엔드 모델을 확인할 수 없습니다"
+      "description": "서드파티 페이지 제목만으로 백엔드가 Grok 4.7임을 보장하지 않습니다"
     }
   },
   "faq": {
@@ -141,7 +141,7 @@
       },
       {
         "question": "어떤 기능들을 지원하나요?",
-        "answer": "공식 API는 텍스트·이미지 입력, 텍스트 출력, 함수 호출, 구조화 출력, 설정 가능한 추론을 지원합니다."
+        "answer": "공식 API는 텍스트·이미지 입력, 텍스트 출력, 함수 호출, 검색/코드 도구, 추론 강도 low→xhigh를 지원합니다."
       },
       {
         "question": "기술 지원은 어떻게 받나요?",
@@ -158,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 지금 AI 신시대 시작",
-    "description": "Grok 4.5가 xAI 공식 모델 카탈로그에 등록되었습니다. 서드파티 이용 전 실제 모델, 가격, 개인정보 조건을 확인하세요.",
+    "description": "Grok 4.7이 xAI 공식 모델 카탈로그에 등록되었습니다. 서드파티 이용 전 실제 모델, 가격, 개인정보 조건을 확인하세요.",
     "primary": "TryGrokAI 체험",
     "secondary": "📚 백업 접속 주소"
   },
   "footer": {
-    "copyright": "© 2026 Grok 4.5 Guide. xAI와 무관한 독립 가이드입니다.",
+    "copyright": "© 2026 Grok 4.7 Guide. xAI와 무관한 독립 가이드입니다.",
     "privacy": "개인정보처리방침",
     "terms": "서비스 약관",
     "contact": "문의하기"

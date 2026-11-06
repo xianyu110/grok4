@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Guía de Grok 4.5: API, contexto de 500K, precios y acceso",
-    "description": "Guía actual de Grok 4.5 con el ID oficial, contexto de 500K, entrada de imágenes, precios API, razonamiento configurable y opciones de acceso."
+    "title": "Guía de Grok 4.7: API, contexto de 500K, precios y acceso",
+    "description": "Guía actual de Grok 4.7 con el ID oficial grok-4.7, contexto de 500K, entrada de imágenes, esfuerzo de razonamiento, precios API y opciones de acceso."
   },
   "hero": {
-    "badge": "🚀 Actualización oficial · julio de 2026",
-    "title": "Grok 4.5 ya aparece en el catálogo oficial de modelos de xAI",
-    "subtitle": "El modelo oficial grok-4.5 ofrece 500K tokens de contexto, entrada de texto e imagen, razonamiento configurable, llamadas a funciones y salidas estructuradas.",
+    "badge": "🚀 Actualización oficial · noviembre de 2026",
+    "title": "Grok 4.7 ya es el modelo insignia en el catálogo oficial de xAI",
+    "subtitle": "El modelo oficial grok-4.7 ofrece 500K tokens de contexto, entrada de texto e imagen, esfuerzo low/medium/high (por defecto)/xhigh, más llamadas a funciones, búsqueda web/X y ejecución de código.",
     "features": [
-      "🎯 Contexto de 500K tokens",
-      "🧠 Razonamiento configurable y herramientas",
-      "⚡ $2 entrada / $6 salida por 1M tokens"
+      "🎯 Contexto de 500K · corte de conocimiento May 2026",
+      "🧠 Esfuerzo de razonamiento low → xhigh (default high)",
+      "⚡ <200k: $2 entrada / $0.50 caché / $6 salida"
     ],
     "cta": {
       "primary": "Probar TryGrokAI",
@@ -18,14 +18,14 @@
     }
   },
   "experience": {
-    "title": "🌟 Opciones de acceso y prueba de Grok 4.5",
+    "title": "🌟 Opciones de acceso y prueba de Grok 4.7",
     "plans": {
       "premium": {
         "name": "💎 Profesional",
         "price": "€10",
         "period": "/mes",
         "features": [
-          "✅ Acceso a Grok 4.5 y varios modelos",
+          "✅ Acceso a Grok 4.7 y varios modelos",
           "✅ Conexión Directa China, Sin VPN Necesaria",
           "✅ El modelo real depende de la lista del servicio",
           "✅ Servicio Estable 24/7",
@@ -48,14 +48,14 @@
     }
   },
   "dailyArticle": {
-    "title": "📰 Estado oficial de Grok 4.5",
-    "headline": "xAI ya publica grok-4.5",
-    "summary": "A 11 de julio de 2026, el catálogo oficial de xAI presenta Grok 4.5 como su modelo insignia para código, chat y uso de herramientas por agentes.",
-    "details": "El catálogo indica 500K tokens de contexto, entrada de texto e imagen, salida de texto, razonamiento configurable, llamadas a funciones y salidas estructuradas. Playground figura como coming soon."
+    "title": "📰 Estado oficial de Grok 4.7",
+    "headline": "xAI ya publica grok-4.7",
+    "summary": "A noviembre de 2026, el catálogo oficial de xAI presenta Grok 4.7 como su modelo insignia para código, tareas agenticas y trabajo de conocimiento (anuncio ~2026-09-21).",
+    "details": "El catálogo indica 500K tokens de contexto, corte May 2026, entrada de texto e imagen, salida de texto sin límite, esfuerzo low/medium/high (default)/xhigh, más function calling, web/X search y code execution. Las cifras de benchmarks deben tomarse de la página oficial."
   },
   "comparison": {
-    "title": "📊 Especificaciones oficiales de Grok 4.5",
-    "description": "Estos datos proceden del catálogo oficial de xAI. Las imágenes históricas del README se conservan, pero no se presentan como resultados de Grok 4.5.",
+    "title": "📊 Especificaciones oficiales de Grok 4.7",
+    "description": "Estos datos proceden del catálogo oficial de xAI. Las imágenes históricas del README se conservan, pero no se presentan como resultados de Grok 4.7; priorice la documentación oficial.",
     "table": {
       "model": "Modelo",
       "result": "Rendimiento",
@@ -63,9 +63,9 @@
     },
     "models": {
       "grok": {
-        "name": "Grok 4.5",
+        "name": "Grok 4.7",
         "result": "Último modelo insignia oficial",
-        "description": "ID: grok-4.5; alias: grok-4.5-latest"
+        "description": "ID: grok-4.7; corte de conocimiento: May 2026"
       },
       "openai": {
         "name": "Contexto",
@@ -79,20 +79,20 @@
       },
       "claude": {
         "name": "Precio API",
-        "result": "$2 entrada / $6 salida",
-        "description": "Por 1M tokens; contexto largo y caché tienen otras tarifas"
+        "result": "$2 entrada / $0.50 caché / $6 salida",
+        "description": "Por 1M tokens (<200k); ≥200k es $4 / $1 / $12"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Tres mejoras clave de Grok 4.5",
+    "title": "🏆 Tres mejoras clave de Grok 4.7",
     "deepsearch": {
       "title": "Modelo insignia para código y tareas generales",
-      "description": "xAI posiciona Grok 4.5 como modelo recomendado para código, chat y cargas de trabajo generales."
+      "description": "xAI posiciona Grok 4.7 como modelo insignia para código, agentes y trabajo de conocimiento (“code and everything else”)."
     },
     "personality": {
       "title": "Capacidades nativas para agentes",
-      "description": "La tabla oficial incluye llamadas a funciones, salidas estructuradas y razonamiento configurable."
+      "description": "Incluye llamadas a funciones, búsqueda web/X, ejecución de código y razonamiento configurable (default high)."
     },
     "performance": {
       "title": "Contexto multimodal de 500K",
@@ -100,16 +100,16 @@
     }
   },
   "painPoints": {
-    "title": "⚠️ Antes de usar Grok 4.5",
+    "title": "⚠️ Antes de usar Grok 4.7",
     "cost": "Más de 200K tokens usa tarifas de contexto largo",
-    "network": "El Playground oficial figura actualmente como coming soon",
+    "network": "La variante Fast solo está en Cursor / Grok Build, no en la API pública de xAI",
     "restrictions": "La disponibilidad y las políticas de terceros pueden variar"
   },
   "solutions": {
     "title": "💡 Consejos de integración y selección",
     "price": {
       "title": "💰 Precio transparente",
-      "description": "Precio base oficial: $2 entrada y $6 salida por 1M tokens"
+      "description": "Estándar <200k: $2 entrada, $0.50 caché, $6 salida por 1M tokens"
     },
     "privacy": {
       "title": "🔒 Revisa la privacidad",
@@ -117,7 +117,7 @@
     },
     "safety": {
       "title": "🛡️ Usa IDs oficiales",
-      "description": "La API debe usar grok-4.5 o un alias oficial"
+      "description": "La API debe usar grok-4.7 (confirme en el catálogo oficial)"
     },
     "original": {
       "title": "🔄 Controla el contexto largo",
@@ -129,7 +129,7 @@
     },
     "easy": {
       "title": "🎯 Verifica el modelo real",
-      "description": "El título de una página no demuestra el modelo de fondo"
+      "description": "El título de una página no demuestra que el backend sea Grok 4.7"
     }
   },
   "faq": {
@@ -141,7 +141,7 @@
       },
       {
         "question": "¿Qué funciones están soportadas?",
-        "answer": "La API oficial admite entrada de texto e imagen, salida de texto, llamadas a funciones, salidas estructuradas y razonamiento configurable."
+        "answer": "La API oficial admite entrada de texto e imagen, salida de texto, llamadas a funciones, herramientas de búsqueda/código y esfuerzo low→xhigh."
       },
       {
         "question": "¿Cómo obtener soporte técnico?",
@@ -158,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 Comienza la Nueva Era de AI Ahora",
-    "description": "Grok 4.5 ya está en el catálogo oficial de xAI. Verifica el modelo real, el precio y la privacidad antes de usar un servicio de terceros.",
+    "description": "Grok 4.7 ya está en el catálogo oficial de xAI. Verifica el modelo real, el precio y la privacidad antes de usar un servicio de terceros.",
     "primary": "Probar TryGrokAI",
     "secondary": "📚 Dirección de Acceso de Respaldo"
   },
   "footer": {
-    "copyright": "© 2026 Grok 4.5 Guide. Guía independiente no afiliada a xAI.",
+    "copyright": "© 2026 Grok 4.7 Guide. Guía independiente no afiliada a xAI.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "contact": "Contáctanos"

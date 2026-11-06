@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Grok 4.5 Guide: API, 500K Context, Pricing and Access",
-    "description": "Current Grok 4.5 guide covering the official model ID, 500K context, image input, API pricing, configurable reasoning, and access options."
+    "title": "Grok 4.7 Guide: API, 500K Context, Pricing and Access",
+    "description": "Current Grok 4.7 guide covering the official model ID grok-4.7, 500K context, image input, reasoning effort, API pricing, and access options."
   },
   "hero": {
-    "badge": "🚀 Official model update · July 2026",
-    "title": "Grok 4.5 is now listed in the official xAI model catalog",
-    "subtitle": "The official grok-4.5 model offers a 500K-token context window, text and image input, configurable reasoning, function calling, and structured outputs.",
+    "badge": "🚀 Official model update · November 2026",
+    "title": "Grok 4.7 is now the official flagship in the xAI model catalog",
+    "subtitle": "Official model ID grok-4.7 offers a 500K-token context window, text and image input, reasoning effort low/medium/high (default)/xhigh, plus function calling, web/X search, and code execution.",
     "features": [
-      "🎯 500K-token context window",
-      "🧠 Configurable reasoning and tool calling",
-      "⚡ $2 input / $6 output per 1M tokens"
+      "🎯 500K-token context · knowledge cutoff May 2026",
+      "🧠 Reasoning effort low → xhigh (default high)",
+      "⚡ <200k: $2 input / $0.50 cached / $6 output"
     ],
     "cta": {
       "primary": "Open TryGrokAI",
@@ -18,14 +18,14 @@
     }
   },
   "experience": {
-    "title": "🌟 Grok 4.5 access and trial options",
+    "title": "🌟 Grok 4.7 access and trial options",
     "plans": {
       "premium": {
         "name": "💎 Professional",
         "price": "$10",
         "period": "/month",
         "features": [
-          "✅ Grok 4.5 and multi-model access",
+          "✅ Grok 4.7 and multi-model access",
           "✅ China Direct Connection, No VPN Needed",
           "✅ Actual model depends on the service list",
           "✅ 24/7 Stable Service",
@@ -48,14 +48,14 @@
     }
   },
   "dailyArticle": {
-    "title": "📰 Official Grok 4.5 status",
-    "headline": "xAI now publicly lists grok-4.5",
-    "summary": "As of July 11, 2026, xAI's official model catalog identifies Grok 4.5 as its latest flagship model for code, chat, and agentic tool calling.",
-    "details": "The catalog lists a 500K-token context window, text and image input, text output, configurable reasoning, function calling, and structured outputs. The Playground is currently marked coming soon."
+    "title": "📰 Official Grok 4.7 status",
+    "headline": "xAI now publicly lists grok-4.7",
+    "summary": "As of November 2026, xAI's official model catalog identifies Grok 4.7 as its latest flagship for coding, agentic tasks, and knowledge work (announced ~2026-09-21).",
+    "details": "The catalog lists a 500K-token context window, May 2026 knowledge cutoff, text and image input, text output with no text output limit, reasoning effort low/medium/high (default)/xhigh, plus function calling, web search, X search, and code execution. Treat published scores as official announcement figures only."
   },
   "comparison": {
-    "title": "📊 Grok 4.5 official specifications",
-    "description": "These details come from the official xAI model catalog. Historical benchmark images remain in the README but are not presented as Grok 4.5 results.",
+    "title": "📊 Grok 4.7 official specifications",
+    "description": "These details come from the official xAI model catalog. Historical benchmark images remain in the README but are not presented as Grok 4.7 results; prefer official docs for scores.",
     "table": {
       "model": "Model",
       "result": "Performance",
@@ -63,9 +63,9 @@
     },
     "models": {
       "grok": {
-        "name": "Grok 4.5",
+        "name": "Grok 4.7",
         "result": "Latest official flagship",
-        "description": "Model ID: grok-4.5; alias: grok-4.5-latest"
+        "description": "Model ID: grok-4.7; knowledge cutoff: May 2026"
       },
       "openai": {
         "name": "Context",
@@ -79,20 +79,20 @@
       },
       "claude": {
         "name": "API pricing",
-        "result": "$2 input / $6 output",
-        "description": "Per 1M tokens; long context and caching have separate rates"
+        "result": "$2 input / $0.50 cached / $6 output",
+        "description": "Per 1M tokens (<200k); ≥200k is $4 / $1 / $12"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Three core Grok 4.5 upgrades",
+    "title": "🏆 Three core Grok 4.7 upgrades",
     "deepsearch": {
       "title": "Flagship for code and general tasks",
-      "description": "xAI positions Grok 4.5 as its preferred model for code, chat, and other general workloads."
+      "description": "xAI positions Grok 4.7 as the flagship for coding, agentic tasks, and knowledge work (“code and everything else”)."
     },
     "personality": {
       "title": "Native agent capabilities",
-      "description": "The official capability table includes function calling, structured outputs, and configurable reasoning."
+      "description": "Official tools include function calling, web/X search, code execution, and configurable reasoning (default high)."
     },
     "performance": {
       "title": "500K multimodal context",
@@ -100,16 +100,16 @@
     }
   },
   "painPoints": {
-    "title": "⚠️ Before using Grok 4.5",
+    "title": "⚠️ Before using Grok 4.7",
     "cost": "Requests above 200K tokens use higher long-context pricing",
-    "network": "The official Playground is currently marked coming soon",
+    "network": "Fast variant is only on Cursor / Grok Build — not on the public xAI API",
     "restrictions": "Third-party availability and data policies may differ"
   },
   "solutions": {
     "title": "💡 Integration and selection tips",
     "price": {
       "title": "💰 Transparent pricing",
-      "description": "Official base pricing is $2 input and $6 output per 1M tokens"
+      "description": "Standard <200k: $2 input, $0.50 cached, $6 output per 1M tokens"
     },
     "privacy": {
       "title": "🔒 Check privacy terms",
@@ -117,7 +117,7 @@
     },
     "safety": {
       "title": "🛡️ Use official model IDs",
-      "description": "API integrations should use grok-4.5 or an official alias"
+      "description": "API integrations should use grok-4.7 (confirm on the official catalog)"
     },
     "original": {
       "title": "🔄 Control long context",
@@ -129,7 +129,7 @@
     },
     "easy": {
       "title": "🎯 Verify the actual model",
-      "description": "A third-party page title does not prove the backend model"
+      "description": "A third-party page title does not prove the backend is Grok 4.7"
     }
   },
   "faq": {
@@ -141,7 +141,7 @@
       },
       {
         "question": "What features are supported?",
-        "answer": "The official API supports text and image input, text output, function calling, structured outputs, and configurable reasoning."
+        "answer": "The official API supports text and image input, text output, function calling, search/code tools, and reasoning effort low→xhigh."
       },
       {
         "question": "How to get technical support?",
@@ -158,12 +158,12 @@
   },
   "finalCta": {
     "title": "🎯 Start the AI New Era Now",
-    "description": "Grok 4.5 is now in the official xAI model catalog. Verify the actual model, pricing, and privacy terms before using a third-party service.",
+    "description": "Grok 4.7 is now in the official xAI model catalog. Verify the actual model, pricing, and privacy terms before using a third-party service.",
     "primary": "Open TryGrokAI",
     "secondary": "📚 Backup Access Address"
   },
   "footer": {
-    "copyright": "© 2026 Grok 4.5 Guide. Independent and not affiliated with xAI.",
+    "copyright": "© 2026 Grok 4.7 Guide. Independent and not affiliated with xAI.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "contact": "Contact Us"
